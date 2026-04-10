@@ -1,0 +1,8 @@
+src/
+repo/
+.source-*.stamp
+.patch-*.stamp
+.build-*.stamp
+.packages-added.list
+.packages-before.list
+.packages-after.list
