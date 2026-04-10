@@ -18,7 +18,7 @@ REPO_PACKAGES:= $(REPO_DIR)/Packages.gz
 SUDO := $(shell command -v sudo 2>/dev/null)
 
 AAC_BUILD_DEPS := libfdk-aac-dev
-REPO_TOOLS     := dpkg-dev
+REPO_TOOLS     := dpkg-dev devscripts
 
 .PHONY: all
 all: ## Build packages and generate local apt repo

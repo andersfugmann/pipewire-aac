@@ -38,6 +38,7 @@ jobs:
       - name: Install build dependencies
         if: steps.check.outputs.needs_build == 'true'
         run: |
+          sed -i 's/^Types: deb$/Types: deb deb-src/' /etc/apt/sources.list.d/*.sources
           apt-get update -qq
           make deps
 
