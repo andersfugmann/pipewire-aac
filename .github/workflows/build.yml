@@ -10,80 +10,47 @@ permissions:
   pages: write
 
 jobs:
-  check:
-    name: Check for new version
+  build:
+    name: Build and deploy
     runs-on: ubuntu-latest
     container: debian:sid
-    outputs:
-      version: ${{ steps.version.outputs.version }}
-      needs_build: ${{ steps.check.outputs.needs_build }}
     steps:
       - name: Install tools
-        run: apt-get update -qq && apt-get install -y -qq curl git
-
-      - name: Get candidate version
-        id: version
-        run: |
-          apt-get update -qq
-          VERSION=$(apt-cache policy pipewire | sed -n 's/.*Candidate: *//p')
-          echo "version=$VERSION" >> "$GITHUB_OUTPUT"
-          echo "PipeWire candidate version: $VERSION"
-
-      - name: Check if already built
-        id: check
-        run: |
-          BUILT=$(curl -sf "https://${{ github.repository_owner }}.github.io/pipewire-aac/VERSION" || echo "")
-          if [ "$BUILT" = "${{ steps.version.outputs.version }}" ]; then
-            echo "Version $BUILT already published, skipping build"
-            echo "needs_build=false" >> "$GITHUB_OUTPUT"
-          else
-            echo "New version ${{ steps.version.outputs.version }} (published: ${BUILT:-none})"
-            echo "needs_build=true" >> "$GITHUB_OUTPUT"
-          fi
-
-  build:
-    name: Build packages
-    needs: check
-    if: needs.check.outputs.needs_build == 'true'
-    runs-on: ubuntu-latest
-    container: debian:sid
-    steps:
-      - name: Install git
-        run: apt-get update -qq && apt-get install -y -qq git
+        run: apt-get update -qq && apt-get install -y -qq git curl make
 
       - name: Checkout
         uses: actions/checkout@v4
 
+      - name: Check if already built
+        id: check
+        run: |
+          VERSION=$(make version)
+          echo "version=$VERSION" >> "$GITHUB_OUTPUT"
+          BUILT=$(curl -sf "https://${{ github.repository_owner }}.github.io/pipewire-aac/VERSION" || echo "")
+          if [ "$BUILT" = "$VERSION" ]; then
+            echo "Version $VERSION already published, skipping"
+            echo "needs_build=false" >> "$GITHUB_OUTPUT"
+          else
+            echo "New version $VERSION (published: ${BUILT:-none})"
+            echo "needs_build=true" >> "$GITHUB_OUTPUT"
+          fi
+
       - name: Install build dependencies
+        if: steps.check.outputs.needs_build == 'true'
         run: |
           apt-get update -qq
-          apt-get build-dep -y pipewire
-          apt-get install -y libfdk-aac-dev dpkg-dev devscripts
+          make deps
 
-      - name: Build
-        run: make source patch build repo
+      - name: Build packages
+        if: steps.check.outputs.needs_build == 'true'
+        run: make all
 
       - name: Record version
-        run: echo "${{ needs.check.outputs.version }}" > repo/VERSION
-
-      - name: Upload artifacts
-        uses: actions/upload-artifact@v4
-        with:
-          name: pipewire-aac-debs
-          path: repo/
-
-  deploy:
-    name: Deploy apt repo
-    needs: [check, build]
-    runs-on: ubuntu-latest
-    steps:
-      - name: Download artifacts
-        uses: actions/download-artifact@v4
-        with:
-          name: pipewire-aac-debs
-          path: repo/
+        if: steps.check.outputs.needs_build == 'true'
+        run: echo "${{ steps.check.outputs.version }}" > repo/VERSION
 
       - name: Deploy to GitHub Pages
+        if: steps.check.outputs.needs_build == 'true'
         uses: peaceiris/actions-gh-pages@v4
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}

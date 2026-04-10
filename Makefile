@@ -15,6 +15,8 @@ PATCH_STAMP  := .patch-$(PW_VERSION).stamp
 BUILD_STAMP  := .build-$(PW_VERSION).stamp
 REPO_PACKAGES:= $(REPO_DIR)/Packages.gz
 
+SUDO := $(shell command -v sudo 2>/dev/null)
+
 AAC_BUILD_DEPS := libfdk-aac-dev
 REPO_TOOLS     := dpkg-dev
 
@@ -28,8 +30,8 @@ deps: $(PKGS_ADDED)
 
 $(PKGS_ADDED):
 	dpkg-query -W -f '$${Package}\n' | sort > .packages-before.list
-	sudo apt-get build-dep -y pipewire
-	sudo apt-get install -y $(AAC_BUILD_DEPS) $(REPO_TOOLS)
+	$(SUDO) apt-get build-dep -y pipewire
+	$(SUDO) apt-get install -y $(AAC_BUILD_DEPS) $(REPO_TOOLS)
 	dpkg-query -W -f '$${Package}\n' | sort > .packages-after.list
 	comm -13 .packages-before.list .packages-after.list > $@
 	rm -f .packages-before.list .packages-after.list
@@ -101,7 +103,7 @@ clean:
 clean-deps: ## Remove packages added by 'make deps'
 clean-deps:
 	@if [ -f "$(PKGS_ADDED)" ]; then \
-	  sudo apt-get purge -y $$(cat $(PKGS_ADDED)) ; \
+	  $(SUDO) apt-get purge -y $$(cat $(PKGS_ADDED)) ; \
 	  rm -f $(PKGS_ADDED) ; \
 	else \
 	  echo "No tracked packages to remove. Run 'make deps' first." ; \
@@ -116,6 +118,11 @@ $(SRC_DIR):
 
 $(REPO_DIR):
 	mkdir -p $@
+
+.PHONY: version
+version: ## Print the target PipeWire version
+version:
+	@echo $(PW_VERSION)
 
 .PHONY: help
 help: ## Show available targets
