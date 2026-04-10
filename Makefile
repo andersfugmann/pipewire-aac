@@ -18,7 +18,7 @@ REPO_PACKAGES:= $(REPO_DIR)/Packages.gz
 SUDO := $(shell command -v sudo 2>/dev/null)
 
 AAC_BUILD_DEPS := libfdk-aac-dev
-REPO_TOOLS     := dpkg-dev devscripts
+REPO_TOOLS     := dpkg-dev devscripts apt-utils
 
 .PHONY: all
 all: ## Build packages and generate local apt repo
@@ -77,8 +77,9 @@ repo: ## Generate local apt repository metadata
 repo: $(REPO_PACKAGES)
 
 $(REPO_PACKAGES): $(BUILD_STAMP)
-	cd $(REPO_DIR) && dpkg-scanpackages --multiversion . /dev/null | gzip -9c > Packages.gz
 	cd $(REPO_DIR) && dpkg-scanpackages --multiversion . /dev/null > Packages
+	cd $(REPO_DIR) && gzip -9c Packages > Packages.gz
+	cd $(REPO_DIR) && apt-ftparchive release . > Release
 	@echo "Local repo ready. Run: sudo make install-repo"
 
 .PHONY: install-repo
