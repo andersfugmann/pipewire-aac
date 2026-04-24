@@ -1,0 +1,152 @@
+Format: 1.8
+Date: Fri, 24 Apr 2026 07:32:58 +0000
+Source: pipewire
+Binary: gstreamer1.0-pipewire gstreamer1.0-pipewire-dbgsym libpipewire-0.3-0t64 libpipewire-0.3-0t64-dbgsym libpipewire-0.3-common libpipewire-0.3-dev libpipewire-0.3-modules libpipewire-0.3-modules-dbgsym libpipewire-0.3-modules-x11 libpipewire-0.3-modules-x11-dbgsym libspa-0.2-bluetooth libspa-0.2-bluetooth-dbgsym libspa-0.2-dev libspa-0.2-jack libspa-0.2-jack-dbgsym libspa-0.2-libcamera libspa-0.2-libcamera-dbgsym libspa-0.2-modules libspa-0.2-modules-dbgsym pipewire pipewire-alsa pipewire-alsa-dbgsym pipewire-audio pipewire-audio-client-libraries pipewire-bin pipewire-bin-dbgsym pipewire-doc pipewire-jack pipewire-jack-dbgsym pipewire-libcamera pipewire-pulse pipewire-system-services pipewire-tests pipewire-tests-dbgsym pipewire-v4l2 pipewire-v4l2-dbgsym
+Architecture: amd64 all
+Version: 1.6.4-1~aac1
+Distribution: UNRELEASED
+Urgency: medium
+Maintainer: Utopia Maintenance Team <pkg-utopia-maintainers@alioth-lists.debian.net>
+Changed-By: Local Build <local@build>
+Description:
+ gstreamer1.0-pipewire - GStreamer 1.0 plugin for the PipeWire multimedia server
+ libpipewire-0.3-0t64 - libraries for the PipeWire multimedia server
+ libpipewire-0.3-common - libraries for the PipeWire multimedia server - common files
+ libpipewire-0.3-dev - libraries for the PipeWire multimedia server - development
+ libpipewire-0.3-modules - libraries for the PipeWire multimedia server - modules
+ libpipewire-0.3-modules-x11 - libraries for the PipeWire multimedia server - X11 modules
+ libspa-0.2-bluetooth - libraries for the PipeWire multimedia server - bluetooth plugins
+ libspa-0.2-dev - libraries for the PipeWire multimedia server Simple Plugin API -
+ libspa-0.2-jack - libraries for the PipeWire multimedia server - JACK client
+ libspa-0.2-libcamera - libraries for the PipeWire multimedia server - libcamera plugin
+ libspa-0.2-modules - libraries for the PipeWire multimedia server Simple Plugin API -
+ pipewire   - audio and video processing engine multimedia server
+ pipewire-alsa - PipeWire ALSA plugin, for ALSA applications to output via PipeWir
+ pipewire-audio - recommended set of PipeWire packages for a standard audio desktop
+ pipewire-audio-client-libraries - transitional package for pipewire-alsa and pipewire-jack
+ pipewire-bin - PipeWire multimedia server - programs
+ pipewire-doc - libraries for the PipeWire multimedia server - documentation
+ pipewire-jack - PipeWire JACK plugin, for JACK applications to output via PipeWir
+ pipewire-libcamera - transitional package for libspa-0.2-libcamera
+ pipewire-pulse - PipeWire PulseAudio daemon
+ pipewire-system-services - audio and video processing engine multimedia server (system servi
+ pipewire-tests - PipeWire multimedia server - tests and examples
+ pipewire-v4l2 - PipeWire V4L2 plugin
+Changes:
+ pipewire (1.6.4-1~aac1) UNRELEASED; urgency=medium
+ .
+   * Enable AAC codec support via libfdk-aac
+Checksums-Sha1:
+ f705d38a86620eec7d21a8326899ae7981d2370e 380744 gstreamer1.0-pipewire-dbgsym_1.6.4-1~aac1_amd64.deb
+ 506fe13710a82fccfde75b807f30f9937349230b 84424 gstreamer1.0-pipewire_1.6.4-1~aac1_amd64.deb
+ 04e9a6cf2d4f79ea7d0c6d7a750a9dc1b2e1d778 1279524 libpipewire-0.3-0t64-dbgsym_1.6.4-1~aac1_amd64.deb
+ 9e2c6579cab96b9ea69edf5e8c682780fd83c888 305356 libpipewire-0.3-0t64_1.6.4-1~aac1_amd64.deb
+ 8d902a4d76d8dab774199d6c153479d0d6a6ad5e 79204 libpipewire-0.3-common_1.6.4-1~aac1_all.deb
+ bdbab7b172288a4328a78e37daac80472fe678c9 65308 libpipewire-0.3-dev_1.6.4-1~aac1_amd64.deb
+ 06ad34fdab940474bc1701dd9cf31c44c7eac418 5209376 libpipewire-0.3-modules-dbgsym_1.6.4-1~aac1_amd64.deb
+ 2f0efb035c408c06c3e66c55bbc6c0fd50a020fc 20956 libpipewire-0.3-modules-x11-dbgsym_1.6.4-1~aac1_amd64.deb
+ a690522fe4149c1cc4932afe61885dd6a5ffde34 15136 libpipewire-0.3-modules-x11_1.6.4-1~aac1_amd64.deb
+ 2d077ae393a44ad4c144a2c6b6847d99a16616bc 829976 libpipewire-0.3-modules_1.6.4-1~aac1_amd64.deb
+ 9eacb3ad1792720a27176b0cb37a9cfe70923c8a 2441696 libspa-0.2-bluetooth-dbgsym_1.6.4-1~aac1_amd64.deb
+ 203008660a7c02b8228266106e634bd67e0d42ae 462536 libspa-0.2-bluetooth_1.6.4-1~aac1_amd64.deb
+ 5b39d4d30cf2f1c937f39941d6a73ae3c1e7c823 122272 libspa-0.2-dev_1.6.4-1~aac1_amd64.deb
+ 0e8ba780186fb63dc59c44e57abebce580bb1f77 355140 libspa-0.2-jack-dbgsym_1.6.4-1~aac1_amd64.deb
+ 24c8e17ccecc2d344ac4b55ce2ed540287200d07 59904 libspa-0.2-jack_1.6.4-1~aac1_amd64.deb
+ 6133a9c5896802bd1a1cf88211812efb7894644a 639432 libspa-0.2-libcamera-dbgsym_1.6.4-1~aac1_amd64.deb
+ 625a7073e8667b3d5dd0badf3aa792ccbbaefd08 67504 libspa-0.2-libcamera_1.6.4-1~aac1_amd64.deb
+ f2eacfd07b75b80fb770d77b2ed159a927cb72a9 5679440 libspa-0.2-modules-dbgsym_1.6.4-1~aac1_amd64.deb
+ 9833f4ad6bddcf841b675a482ee02b1b441c6ce3 1096584 libspa-0.2-modules_1.6.4-1~aac1_amd64.deb
+ cb369aab57d4d237693aa1133c4fa18f780a93a3 226624 pipewire-alsa-dbgsym_1.6.4-1~aac1_amd64.deb
+ aa59adc1c5004d689183460014b6d8c333e26476 52896 pipewire-alsa_1.6.4-1~aac1_amd64.deb
+ 9337622cff23d6d2c1698945ffd6f18b456b9d6e 9896 pipewire-audio-client-libraries_1.6.4-1~aac1_all.deb
+ 98e172331cbb2d8bf254edeed8debe7f9a677cc7 10096 pipewire-audio_1.6.4-1~aac1_all.deb
+ 2078d384c3a8e3f15eb7a072a03c626edde325d7 1337512 pipewire-bin-dbgsym_1.6.4-1~aac1_amd64.deb
+ 87bc8723a4014a458037d43706736cd02fe96468 600652 pipewire-bin_1.6.4-1~aac1_amd64.deb
+ 14183d633a6611331d64f457cf1b2f55a6867a21 1911312 pipewire-doc_1.6.4-1~aac1_all.deb
+ 356545438d34d1a27c3cf10fd52353bb107bc095 661784 pipewire-jack-dbgsym_1.6.4-1~aac1_amd64.deb
+ bbc946b043bdb2cfb5ba5deeb5c377ab12c3e79d 128740 pipewire-jack_1.6.4-1~aac1_amd64.deb
+ 74ed38b2a4ef439c114aa341ae8d9b80406192b1 9868 pipewire-libcamera_1.6.4-1~aac1_all.deb
+ ffcad6c9c591f00cb6786819e6100a505ad12af3 15288 pipewire-pulse_1.6.4-1~aac1_amd64.deb
+ 095e04cbc09077e25a2f675deae402aa2066cb45 11980 pipewire-system-services_1.6.4-1~aac1_all.deb
+ 6d4efa38ed5fc4f8f49032cec2cafa862102c461 3805152 pipewire-tests-dbgsym_1.6.4-1~aac1_amd64.deb
+ ae3cbe395cdaae8f4a8b36e3774aa10fad48ba3f 673508 pipewire-tests_1.6.4-1~aac1_amd64.deb
+ 072d8384f691cac411b87b01576489766204a739 153196 pipewire-v4l2-dbgsym_1.6.4-1~aac1_amd64.deb
+ 62415c2bbf8dac072f3502b056811e3666b78f33 47072 pipewire-v4l2_1.6.4-1~aac1_amd64.deb
+ 4ea3ec0d8ac8c42813092e1717872cda9931156a 29408 pipewire_1.6.4-1~aac1_amd64.buildinfo
+ 3708aaa8f547e9718164655013117de900f836bf 115196 pipewire_1.6.4-1~aac1_amd64.deb
+Checksums-Sha256:
+ d552d0fa547351d25fc6c65d8c519fcfa2e006ca313c4321dfb9efbc49382ba1 380744 gstreamer1.0-pipewire-dbgsym_1.6.4-1~aac1_amd64.deb
+ d50caca0a114796734491182e1f15c3a978d8338b044a725e0928bfd5f8d41ff 84424 gstreamer1.0-pipewire_1.6.4-1~aac1_amd64.deb
+ 6b9e8e7a2c16010283d49fe838c73b2e4f1e80549963b81eed6fa860e497c290 1279524 libpipewire-0.3-0t64-dbgsym_1.6.4-1~aac1_amd64.deb
+ 7dcd05ec50a4b56b948ac86a7366d4321d4dd849e93fe2ce21a157265148601d 305356 libpipewire-0.3-0t64_1.6.4-1~aac1_amd64.deb
+ 2be7039aedb40349c42e9cf377210b6e46e6dae278066e3e6bb21114bcc7fcab 79204 libpipewire-0.3-common_1.6.4-1~aac1_all.deb
+ bd52e3187c61f9e7d45b450328bda3416a556268f88f743706d36b379152be4b 65308 libpipewire-0.3-dev_1.6.4-1~aac1_amd64.deb
+ c7b7d188848b309232f29918ca98f313ce7d5fbecff0afd077424a5515fcefe2 5209376 libpipewire-0.3-modules-dbgsym_1.6.4-1~aac1_amd64.deb
+ 8835fbf1e65d53023314c6180de59bf0582aed0fca5905bbd7598066a76d833d 20956 libpipewire-0.3-modules-x11-dbgsym_1.6.4-1~aac1_amd64.deb
+ 7ef12c52ba46b4d6a1c470ccf48a19c5cabd1814690b914360eb6c525b238b79 15136 libpipewire-0.3-modules-x11_1.6.4-1~aac1_amd64.deb
+ c6499ea44a7fced3ab27e82813ca73bd9fc3ecac6cb5c70b2642223fcb43514c 829976 libpipewire-0.3-modules_1.6.4-1~aac1_amd64.deb
+ 189faf1745c46f88feecefb37d1fa5d9d82252e223407c6ec61f2d09705a752c 2441696 libspa-0.2-bluetooth-dbgsym_1.6.4-1~aac1_amd64.deb
+ 6328923d996f149538af999cb14ecec024af4e8191150d1266eda40f7038645f 462536 libspa-0.2-bluetooth_1.6.4-1~aac1_amd64.deb
+ 07769ce592e8c10dd57f7d47cf1c473b4aa2158945cc0e45e15d57b4581efd77 122272 libspa-0.2-dev_1.6.4-1~aac1_amd64.deb
+ 688ee3c444fe22b9f951587d9971ac02d2d1b698bfb4618ab8cfcbef10d78ec7 355140 libspa-0.2-jack-dbgsym_1.6.4-1~aac1_amd64.deb
+ e72ccce4b3c6568c0521b30f920280c0eb7da154d5227b56e598d4413a75a739 59904 libspa-0.2-jack_1.6.4-1~aac1_amd64.deb
+ 086d0a47a49e4534d11d9fa829373ec2ab674733afc69576cb2203756850bece 639432 libspa-0.2-libcamera-dbgsym_1.6.4-1~aac1_amd64.deb
+ c80aa742072b730895d6abc4e87a5e3553014f31ed337f3a1016a566e1bd3d18 67504 libspa-0.2-libcamera_1.6.4-1~aac1_amd64.deb
+ 4f4b591ed0428005d0d8edf848e2fd318e8cf4ede74227acb0a954b6b08112f5 5679440 libspa-0.2-modules-dbgsym_1.6.4-1~aac1_amd64.deb
+ cfdeb1ff37c2192f4bf5292945ece60b78cd5659b1f6fcac3d551cfcc290c19c 1096584 libspa-0.2-modules_1.6.4-1~aac1_amd64.deb
+ a30038be46ee6bf306ff028a4ce42ca8762fcef528f666e88c52aced9c5ca5e5 226624 pipewire-alsa-dbgsym_1.6.4-1~aac1_amd64.deb
+ fb0a72335842b5130178b1d474820f56c07a52fde4d16838644b29fc83ddfa4b 52896 pipewire-alsa_1.6.4-1~aac1_amd64.deb
+ 338e2585199714d3cca26c4f0f0fa0af08908104736a844fbab228306c77dc53 9896 pipewire-audio-client-libraries_1.6.4-1~aac1_all.deb
+ a7c91bc8c2bb761ebf43bebc4d9908a6bb7d418db4ecd43ed8ff88b30a23d7ce 10096 pipewire-audio_1.6.4-1~aac1_all.deb
+ 79cb593685dd321bcd5363cb96f48d2cdb4563679cc53d5c1442947278bcfeae 1337512 pipewire-bin-dbgsym_1.6.4-1~aac1_amd64.deb
+ 015ca9b3ebd44cdb9f81e665ac496bd0356096d5db860b781ff92bfd7748b42a 600652 pipewire-bin_1.6.4-1~aac1_amd64.deb
+ 7bbc4ce8cc186b12b92348100c01c12f8aedb5be45e39f9f811f7790229ca04c 1911312 pipewire-doc_1.6.4-1~aac1_all.deb
+ 8d8fd072e6d0130aae1c768c0cb5c0fc7af0e4e22a7e9fc636388c5ae5a86128 661784 pipewire-jack-dbgsym_1.6.4-1~aac1_amd64.deb
+ 8db11ac9493b2e38f06e44918acfd2b630b75a5e52931f993f886df5c0702d61 128740 pipewire-jack_1.6.4-1~aac1_amd64.deb
+ cb2562366e084229518b379d62e3d4a58ab2182ee60341e78aa192566c74f6c7 9868 pipewire-libcamera_1.6.4-1~aac1_all.deb
+ 44d9549aee4cd4c0b9ffc474286773eeb8680a7d61dfc533f49acf39829dbdbf 15288 pipewire-pulse_1.6.4-1~aac1_amd64.deb
+ 5a7736da2274587ce96d3a7a77f3a32125c0e94f767fbf4ac55fdf49f8488123 11980 pipewire-system-services_1.6.4-1~aac1_all.deb
+ 230af6e23fdbb13a14b3ad80e50e0d79e69cca08ce18a0dc50cd813fd1dd1e5a 3805152 pipewire-tests-dbgsym_1.6.4-1~aac1_amd64.deb
+ a90ae33d12a2b7bbbf6cee973e312a67ad97ee27024cc30c9d1d9a476a9ccbf0 673508 pipewire-tests_1.6.4-1~aac1_amd64.deb
+ 236b307f567ef61b43e242b38c23c8089857809e64b3a10448844294ce5faadd 153196 pipewire-v4l2-dbgsym_1.6.4-1~aac1_amd64.deb
+ 0b9052cb37c48599546b0aa6e29733f151b00378337b3dffafd17bfddddeef49 47072 pipewire-v4l2_1.6.4-1~aac1_amd64.deb
+ d34ebaf7a4e49690d09ed447aec9d059a58f5aad4d39d3afd9a9534e2ea4c420 29408 pipewire_1.6.4-1~aac1_amd64.buildinfo
+ 96de2586f215a7229da218eac73ad4198e7ea438c0a7a66c7519664d9ca8e309 115196 pipewire_1.6.4-1~aac1_amd64.deb
+Files:
+ 7d84f90543bdec7b32910febfd87ef54 380744 debug optional gstreamer1.0-pipewire-dbgsym_1.6.4-1~aac1_amd64.deb
+ 096a04bcb00ade25dbb36683fe1bd8d3 84424 libs optional gstreamer1.0-pipewire_1.6.4-1~aac1_amd64.deb
+ 46ec3dbdab9c67694a8b961af664eb83 1279524 debug optional libpipewire-0.3-0t64-dbgsym_1.6.4-1~aac1_amd64.deb
+ fe4e880f076ce74bd3a030099be56f0b 305356 libs optional libpipewire-0.3-0t64_1.6.4-1~aac1_amd64.deb
+ f29177ff8eb3c253c364b67f088a90ca 79204 libs optional libpipewire-0.3-common_1.6.4-1~aac1_all.deb
+ 31b28af344776d4a1aec79fa20354a09 65308 libdevel optional libpipewire-0.3-dev_1.6.4-1~aac1_amd64.deb
+ 73651f2252895b7d85aea47660558f24 5209376 debug optional libpipewire-0.3-modules-dbgsym_1.6.4-1~aac1_amd64.deb
+ cb5777d3d56f39af1b4d229ef7db26a5 20956 debug optional libpipewire-0.3-modules-x11-dbgsym_1.6.4-1~aac1_amd64.deb
+ a9e7d17e6b4b4a955e069edcb358e945 15136 libs optional libpipewire-0.3-modules-x11_1.6.4-1~aac1_amd64.deb
+ 1361d76bd4f06a975da0b1fb6077e059 829976 libs optional libpipewire-0.3-modules_1.6.4-1~aac1_amd64.deb
+ 98be8f9643cc54e62b890882b7a61c69 2441696 debug optional libspa-0.2-bluetooth-dbgsym_1.6.4-1~aac1_amd64.deb
+ 4840d048fd06d16a3e6cc347a1a0bf04 462536 libs optional libspa-0.2-bluetooth_1.6.4-1~aac1_amd64.deb
+ d3675997decfdee1b8f8e17a7107e34a 122272 libdevel optional libspa-0.2-dev_1.6.4-1~aac1_amd64.deb
+ da9c6d50071b4abbb4e87d95e824eb3a 355140 debug optional libspa-0.2-jack-dbgsym_1.6.4-1~aac1_amd64.deb
+ 3e03e90e2d337ee0e0a84403b6775ddb 59904 libs optional libspa-0.2-jack_1.6.4-1~aac1_amd64.deb
+ b0a01bb3ae3e43291b282046dfdae329 639432 debug optional libspa-0.2-libcamera-dbgsym_1.6.4-1~aac1_amd64.deb
+ 71cc5a4703a9112007d732bba15eac22 67504 video optional libspa-0.2-libcamera_1.6.4-1~aac1_amd64.deb
+ 80ba7b70da6a8df6bbde12759f472edc 5679440 debug optional libspa-0.2-modules-dbgsym_1.6.4-1~aac1_amd64.deb
+ 65da5946b7376f379196dda1141ffe87 1096584 libs optional libspa-0.2-modules_1.6.4-1~aac1_amd64.deb
+ 841cdedd63a31018f6ec01280860e29d 226624 debug optional pipewire-alsa-dbgsym_1.6.4-1~aac1_amd64.deb
+ f30a0b92eb55e1b82eaa745dffe34d99 52896 sound optional pipewire-alsa_1.6.4-1~aac1_amd64.deb
+ 5b0ca817985292a30a1d20dc88163b1e 9896 oldlibs optional pipewire-audio-client-libraries_1.6.4-1~aac1_all.deb
+ b200986c8d3e9d2a355e8cf716940520 10096 sound optional pipewire-audio_1.6.4-1~aac1_all.deb
+ 0690a3747c5583354738136bb830a94a 1337512 debug optional pipewire-bin-dbgsym_1.6.4-1~aac1_amd64.deb
+ 7431cee732d8d00b5daebdeca93b58d9 600652 video optional pipewire-bin_1.6.4-1~aac1_amd64.deb
+ 26a5173431283229d6639cbff71d91a5 1911312 doc optional pipewire-doc_1.6.4-1~aac1_all.deb
+ 3b2201d342e98bb82f925f38bd7d12b5 661784 debug optional pipewire-jack-dbgsym_1.6.4-1~aac1_amd64.deb
+ 0e6ea91abb00889c8bea839087c5d759 128740 sound optional pipewire-jack_1.6.4-1~aac1_amd64.deb
+ d1a9640805420779c388d7bddf367d66 9868 oldlibs optional pipewire-libcamera_1.6.4-1~aac1_all.deb
+ a88697a764057bf24cf831a01d7c0042 15288 sound optional pipewire-pulse_1.6.4-1~aac1_amd64.deb
+ a6965ef838a5604c5f90b6c31cec2be3 11980 libs optional pipewire-system-services_1.6.4-1~aac1_all.deb
+ 338fa8f5dbd227eec1a3a7b7546ffb15 3805152 debug optional pipewire-tests-dbgsym_1.6.4-1~aac1_amd64.deb
+ 7f01819fb26518d56c192a5a97e10511 673508 misc optional pipewire-tests_1.6.4-1~aac1_amd64.deb
+ b3c2e71f82ccc4b28c02f7bfee7c0728 153196 debug optional pipewire-v4l2-dbgsym_1.6.4-1~aac1_amd64.deb
+ a5befe9a8433401eb9031e1f34defae4 47072 video optional pipewire-v4l2_1.6.4-1~aac1_amd64.deb
+ 408ce3ab93d975ec3782b4a8ea746879 29408 libs optional pipewire_1.6.4-1~aac1_amd64.buildinfo
+ e94ab5c9b582d9ec819a5fd412e71240 115196 video optional pipewire_1.6.4-1~aac1_amd64.deb
