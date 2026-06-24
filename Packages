@@ -1,15 +1,15 @@
 Package: gstreamer1.0-pipewire
 Source: pipewire
-Version: 1.6.6-1~aac1
+Version: 1.6.7-1~aac1
 Architecture: amd64
 Maintainer: Utopia Maintenance Team <pkg-utopia-maintainers@alioth-lists.debian.net>
 Installed-Size: 259
-Depends: pipewire (= 1.6.6-1~aac1), libc6 (>= 2.38), libglib2.0-0t64 (>= 2.80.0), libgstreamer-plugins-base1.0-0 (>= 1.23.1), libgstreamer1.0-0 (>= 1.16.0), libpipewire-0.3-0t64 (= 1.6.6-1~aac1)
-Filename: ./gstreamer1.0-pipewire_1.6.6-1~aac1_amd64.deb
-Size: 84456
-MD5sum: 443f157d164877885e4e623fec5a5ab8
-SHA1: 941c0ac21d3bbc66b0244261a0fb0bd507d0c33c
-SHA256: 9da7f36085931acadd15a8276f658e12f80bf80ed5a25468784732fc595a2ed3
+Depends: pipewire (= 1.6.7-1~aac1), libc6 (>= 2.38), libglib2.0-0t64 (>= 2.80.0), libgstreamer-plugins-base1.0-0 (>= 1.23.1), libgstreamer1.0-0 (>= 1.16.0), libpipewire-0.3-0t64 (= 1.6.7-1~aac1)
+Filename: ./gstreamer1.0-pipewire_1.6.7-1~aac1_amd64.deb
+Size: 84500
+MD5sum: 536b5b82ab0cbc2f75e88b0078eb63a3
+SHA1: ebb7a3284bbaaa40a3e57f5d725b115363513621
+SHA256: 74be8795229ec5d772c0531fb505575dcb74ee4bff4faa8eb858e32c980b96f9
 Section: libs
 Priority: optional
 Multi-Arch: same
@@ -28,40 +28,40 @@ Description: GStreamer 1.0 plugin for the PipeWire multimedia server
 
 Package: gstreamer1.0-pipewire-dbgsym
 Source: pipewire
-Version: 1.6.6-1~aac1
+Version: 1.6.7-1~aac1
 Auto-Built-Package: debug-symbols
 Architecture: amd64
 Maintainer: Utopia Maintenance Team <pkg-utopia-maintainers@alioth-lists.debian.net>
 Installed-Size: 407
-Depends: gstreamer1.0-pipewire (= 1.6.6-1~aac1)
-Filename: ./gstreamer1.0-pipewire-dbgsym_1.6.6-1~aac1_amd64.deb
-Size: 380744
-MD5sum: b54359e524ef7248d98d8745bb8c4a77
-SHA1: 4cfa9fedd28f20088e7f2c9c5821c0c98955ef33
-SHA256: ffe96e4762f395a2b4473793da1d17647f7f12cd5b735e8aa1f1ecc90bb08538
+Depends: gstreamer1.0-pipewire (= 1.6.7-1~aac1)
+Filename: ./gstreamer1.0-pipewire-dbgsym_1.6.7-1~aac1_amd64.deb
+Size: 380796
+MD5sum: dfaa3bb64179213c2bbcf0414362bf38
+SHA1: 979d9e8ccdc6dfbfb8d9efbc4e0c1073af959281
+SHA256: bec294307eeb3012109eff673f00c30770644bbd78ebd724b51d45dab21fcc29
 Section: debug
 Priority: optional
 Multi-Arch: same
 Description: debug symbols for gstreamer1.0-pipewire
-Build-Ids: 16bd174c91ccfbf4147996c38ff653044df016f1
+Build-Ids: 1f908cbb22b4e0ca0595bc6fd5a00b68e1365215
 
 Package: libpipewire-0.3-0t64
 Source: pipewire
-Version: 1.6.6-1~aac1
+Version: 1.6.7-1~aac1
 Architecture: amd64
 Maintainer: Utopia Maintenance Team <pkg-utopia-maintainers@alioth-lists.debian.net>
 Installed-Size: 1065
-Depends: libspa-0.2-modules (= 1.6.6-1~aac1), libc6 (>= 2.38)
+Depends: libspa-0.2-modules (= 1.6.7-1~aac1), libc6 (>= 2.38)
 Recommends: libpipewire-0.3-common
-Suggests: pipewire (= 1.6.6-1~aac1)
-Breaks: libpipewire-0.3-0 (<< 1.6.6-1~aac1)
+Suggests: pipewire (= 1.6.7-1~aac1)
+Breaks: libpipewire-0.3-0 (<< 1.6.7-1~aac1)
 Replaces: libpipewire-0.3-0
-Provides: libpipewire-0.3-0 (= 1.6.6-1~aac1)
-Filename: ./libpipewire-0.3-0t64_1.6.6-1~aac1_amd64.deb
-Size: 305024
-MD5sum: 0857a1ce2512baf97d52ce9e808bed14
-SHA1: ba2be778355528bfe6e979030922935bcee20978
-SHA256: 4f1725b9b3839db6edba50d09bf992afb559a03f11cb58781adaa8f74bfa8d48
+Provides: libpipewire-0.3-0 (= 1.6.7-1~aac1)
+Filename: ./libpipewire-0.3-0t64_1.6.7-1~aac1_amd64.deb
+Size: 306068
+MD5sum: a44a49bc1b7af52bfd8de38a9776e5e4
+SHA1: ccffdf6e03f8646b3088bf19d96c51276b36b2f9
+SHA256: b6a737abed49a5bdf930b4cce9744694c9051ef23d96704b33b5b634901a8f22
 Section: libs
 Priority: optional
 Multi-Arch: same
@@ -77,34 +77,34 @@ Description: libraries for the PipeWire multimedia server
 
 Package: libpipewire-0.3-0t64-dbgsym
 Source: pipewire
-Version: 1.6.6-1~aac1
+Version: 1.6.7-1~aac1
 Auto-Built-Package: debug-symbols
 Architecture: amd64
 Maintainer: Utopia Maintenance Team <pkg-utopia-maintainers@alioth-lists.debian.net>
-Installed-Size: 1324
-Depends: libpipewire-0.3-0t64 (= 1.6.6-1~aac1)
-Filename: ./libpipewire-0.3-0t64-dbgsym_1.6.6-1~aac1_amd64.deb
-Size: 1280324
-MD5sum: a1d972013155ffc41f88d3a2cb9e9e5a
-SHA1: 5d503ef2e63503a79fe115d70b3760a0866e3f82
-SHA256: cd267084d9266ee626adccd92a7bc8f9fad417c244a3b738cb93e34a580d9921
+Installed-Size: 1319
+Depends: libpipewire-0.3-0t64 (= 1.6.7-1~aac1)
+Filename: ./libpipewire-0.3-0t64-dbgsym_1.6.7-1~aac1_amd64.deb
+Size: 1275676
+MD5sum: 3fad7be535b94bdf4b2cb57f1a9575a4
+SHA1: 3ddbd1415538fffea5a41ad715d252708116cf37
+SHA256: c4756eeec9dbebf5646720183a34960bf87ce7ea0e6ac58239bc77f46f0153bb
 Section: debug
 Priority: optional
 Multi-Arch: same
 Description: debug symbols for libpipewire-0.3-0t64
-Build-Ids: bc57f8658d804bd0c64b73175e592d8646fd257a
+Build-Ids: a735a8d782da04299b8eec8c19ad9349882b7f0f
 
 Package: libpipewire-0.3-common
 Source: pipewire
-Version: 1.6.6-1~aac1
+Version: 1.6.7-1~aac1
 Architecture: all
 Maintainer: Utopia Maintenance Team <pkg-utopia-maintainers@alioth-lists.debian.net>
 Installed-Size: 707
-Filename: ./libpipewire-0.3-common_1.6.6-1~aac1_all.deb
-Size: 79168
-MD5sum: 1a65b44dd2f2eec833e8b4ed7787efb2
-SHA1: 59678be1d68ac30934a8b3c4c7ab1de7655f2183
-SHA256: 36e22c22a91036a08898f6e82d2a70207bea0b71f39d850f8fa86fbbae245a8c
+Filename: ./libpipewire-0.3-common_1.6.7-1~aac1_all.deb
+Size: 79208
+MD5sum: 4dab6c4f62010177b27d3b4346a02b0e
+SHA1: 8deb2c7da1d5825d0a2594f6b2ea0025636a91d4
+SHA256: 27780359097c963d8aa9f7a1f75863eebf2ed2246a67b142950213846bab11b5
 Section: libs
 Priority: optional
 Multi-Arch: foreign
@@ -123,17 +123,17 @@ Description: libraries for the PipeWire multimedia server - common files
 
 Package: libpipewire-0.3-dev
 Source: pipewire
-Version: 1.6.6-1~aac1
+Version: 1.6.7-1~aac1
 Architecture: amd64
 Maintainer: Utopia Maintenance Team <pkg-utopia-maintainers@alioth-lists.debian.net>
 Installed-Size: 361
-Depends: libpipewire-0.3-0t64 (= 1.6.6-1~aac1), libspa-0.2-dev (= 1.6.6-1~aac1)
+Depends: libpipewire-0.3-0t64 (= 1.6.7-1~aac1), libspa-0.2-dev (= 1.6.7-1~aac1)
 Suggests: pipewire-doc
-Filename: ./libpipewire-0.3-dev_1.6.6-1~aac1_amd64.deb
-Size: 65300
-MD5sum: cd112211afa66ad3a5b67497af467811
-SHA1: ac89b90600053d605843d1469d71286689f86709
-SHA256: db2e870b40ede66ee5431b936cac8386142848de0b18c469a502193981bf7882
+Filename: ./libpipewire-0.3-dev_1.6.7-1~aac1_amd64.deb
+Size: 65296
+MD5sum: 91a99c6c3f6d5ede6fc1066491668cdf
+SHA1: 4a77918194312cffb9d7ff4086bcbf74e61a8590
+SHA256: ae3b8d51e98164cfa9b6b598f0ba104d9dd1c5cf5e52bd8b7ccc140e0f1a977d
 Section: libdevel
 Priority: optional
 Multi-Arch: same
@@ -151,18 +151,18 @@ Description: libraries for the PipeWire multimedia server - development
 
 Package: libpipewire-0.3-modules
 Source: pipewire
-Version: 1.6.6-1~aac1
+Version: 1.6.7-1~aac1
 Architecture: amd64
 Maintainer: Utopia Maintenance Team <pkg-utopia-maintainers@alioth-lists.debian.net>
 Installed-Size: 4677
-Depends: libavahi-client3 (>= 0.6.16), libavahi-common3 (>= 0.6.16), libc6 (>= 2.38), libdbus-1-3 (>= 1.10), libffado2 (>= 2.5.0), libglib2.0-0t64 (>= 2.32.0), libopus0 (>= 1.3.1-2~), libpipewire-0.3-0t64 (= 1.6.6-1~aac1), libpulse0 (>= 0.99.1), libroc0.4 (>= 0.4.0), libselinux1 (>= 3.1~), libssl3t64 (>= 3.0.0)
+Depends: libavahi-client3 (>= 0.6.16), libavahi-common3 (>= 0.6.16), libc6 (>= 2.38), libdbus-1-3 (>= 1.10), libffado2 (>= 2.5.0), libglib2.0-0t64 (>= 2.32.0), libopus0 (>= 1.3.1-2~), libpipewire-0.3-0t64 (= 1.6.7-1~aac1), libpulse0 (>= 0.99.1), libroc0.4 (>= 0.4.0), libselinux1 (>= 3.1~), libssl3t64 (>= 3.0.0)
 Breaks: pipewire (<< 0.3.5)
 Replaces: pipewire (<< 0.3.5)
-Filename: ./libpipewire-0.3-modules_1.6.6-1~aac1_amd64.deb
-Size: 831992
-MD5sum: 5ea7a8ac43731e9b7be7b8e51565f8bf
-SHA1: 8e9132d159e6a8eb1838724c44f74489ea03dc5d
-SHA256: b59f26d60cdbd1676b22807458af7a50e4da09decb223f87f618b2796296d3c8
+Filename: ./libpipewire-0.3-modules_1.6.7-1~aac1_amd64.deb
+Size: 832596
+MD5sum: c576335abf479fa2776e748caf0c6af8
+SHA1: ffdcaa18244438aec40902b4abc7daaf48a430ad
+SHA256: d6e14878c0e976972ac577d6ad53b8df4b3a030eda531595954940dd80985a3e
 Section: libs
 Priority: optional
 Multi-Arch: same
@@ -182,37 +182,37 @@ Description: libraries for the PipeWire multimedia server - modules
 
 Package: libpipewire-0.3-modules-dbgsym
 Source: pipewire
-Version: 1.6.6-1~aac1
+Version: 1.6.7-1~aac1
 Auto-Built-Package: debug-symbols
 Architecture: amd64
 Maintainer: Utopia Maintenance Team <pkg-utopia-maintainers@alioth-lists.debian.net>
-Installed-Size: 5646
-Depends: libpipewire-0.3-modules (= 1.6.6-1~aac1)
-Filename: ./libpipewire-0.3-modules-dbgsym_1.6.6-1~aac1_amd64.deb
-Size: 5215644
-MD5sum: 6f2635af42ca3be0fedf2ea26b3fc677
-SHA1: c3e8df93b5e0d1f54c8608de3ce241776061a917
-SHA256: 1e135c34681af527202fae6449410357ababcafd1e35d54062decab315c0fc9f
+Installed-Size: 5645
+Depends: libpipewire-0.3-modules (= 1.6.7-1~aac1)
+Filename: ./libpipewire-0.3-modules-dbgsym_1.6.7-1~aac1_amd64.deb
+Size: 5211796
+MD5sum: 5b17f57ce73efbbf7af187c7c69b2e7f
+SHA1: bdec19635cf5e97c684d1e198fc63f9306df7083
+SHA256: aa1cdb68b64a0ed7e04f7864b18fc6328d58a5a1728341a8da2d37d0e63146c6
 Section: debug
 Priority: optional
 Multi-Arch: same
 Description: debug symbols for libpipewire-0.3-modules
-Build-Ids: 045a252600a4dd7d8869f1247b2dd9a5fb450f82 0c16bea42be71ea657a47a4890358fe0e5dd33b7 136e4a7e3f4a5d42d7c856c6d20a2ab27c0e3482 163878f39109d328f5b724989ad84164a2de0ca6 1f5c40f000fdf272f0034eb8aea1f318b8d028b4 23c4dde94ca75796d4ab715396b2ca39f52bc0b4 27e07ece288ed445fba1ff98e3b550d9e545f479 2b00c6b237b70ac5b8fb38a69f841105d21cfe87 2e8184219465aaba29c57280b7a68846ae932403 40e61c01712515dd88189c98119418f2017586e4 47bf5bd994b1a0ecfcd8d8890fcb04b294c30239 48621b791dd917262e8d1ea55c177e8f09ab66c7 5d92bb058afba94b8d9ef439a37c5507e413d8da 626122bf6487b631ef761a99e3008abbe0312bc3 65544c3cc5a89304bcc4f5c8964dbff49b1b88f0 67f84d922d8b7b11586392823f5c0ec837bd1ce4 695b4ddbfbd40078a1ca97ec33d6f39573ab065d 6afb0f46e0c2ae5ecf757a468de290ce630b0d48 6dc6a96386ca96db71bbd7598678c7fe82a4c3b1 7a03676c4b88a56d8720fe063e63137791881439 7b6e75738d51e8639c6764559944fce1a1ae4c3b 801c28e9c43f1f6f40a6584dfb122fa89aa40a15 9609dad36ee86063610dcbf6633efe5b33d6d67d 9b6cb88bceace0747a65958d2b7b93f2fd5acfa8 b191b49059b4ad099790e6b3483b983894371bdf ba8a1df17b30101f124e1433bd6d99e869410265 bd9cdaff9708d34966e7ab2f20749829a7a7dab7 bdb146aeb6a3fca0e6c525431594e2849317b14f c41e1296a426659c37b9650685a6a282bdafb065 c7b0a1c9f922689555371bcb120574d772519645 c8f1fca068881726142ade8c0551f6f84424c0a6 c93c7bfd359a82b36072ca94314d0bab0f7e67cd c9b1a274e5712376d7c11666eb1e4283fffe35ef d30c1d207f2ac4f11625454abfd40fd4cceec7c4 d451cc6a06d6dd292d8a04f988e57dec30024fb7 dd4b7ad25fee13c95d827fe1fe0512e3edddc31b e002a29759c0a405d60063b16d553cafa461d4f0 f2439b40d244027b5dc040895d50228c7160efff f277a0c1c8172e97e3535b654a9e99a6fef39798 f5597cc38cb095acfbd59a4b04e931b333f994e7 fb022b6abfd41cfaf370fbc26768accc8d74899c fb8cd4fc816abbd16585ef352bb03af96251e1e0 fe0bdb08100fa907db43442b2c49bcf73081eabd ffd69e16732c6b9aad23fa86f844b4544a9d77a3
+Build-Ids: 11477bde69c6ea1f614462b23d76ad51cbbc27f0 19176ff21218c8e3a6df21b4b0480ca86b87164b 1cb31cf7e05494e54e8593f98cfc1f046599bbce 1e8fbb5d2cc6a1c9ec0120cd9a6f0ddc334c95fa 1f0b8795fa6370f26eb8ace4e2c9193d0d68b797 29e705a320e0c366ecc312031280ddb3b4cd6876 2a0c52f5b3bdbfa66a975a9084e3eddde203a925 306fb3af1fd260779ddccd991de80583a1bccb61 319e50a977211497d326e38b48c9f1dbce4b86ca 32f413b2b6bd94a9fd0775ca3c094bd151c384ea 44075e4bfc1a23c938465a87b4c36c42634a5180 466a9ce9d94adc0cf202785d77faf7333ab00134 47cec833da75455086ff94cf2cc34ffea06a26dc 497c6fb590d1f0c9a6ef19c832594a35cd412050 4f070e3b38df49bb045bce213471b0c857215505 5f6eb8db1bed039f4f770bec8f155b07568020bf 60c9d2cd201d2f8f051554593f756ee1c3c95ec7 67dc27b6b7d3e9bcb1e0b5e037c60e50368dd4ca 7249640eaf8a9c94591e2cf2bd0bbc5790fb8c25 75382ab8126a7ce1f5945a0cffa8fecf8ce2ae68 7bd6cb52d107ac21085e2400be72a1b4b0009c41 81da313ce88ca327f26a3b96bbfa7525e25481cb 82ec48f1bf3e9e917d0df8b6973aa8c3757bd49a 830d3850c541f99efacb4e129fc5de724cb6534c 864e33adb658ab39efc963904e9923d5a52fc865 91835ab80a50fee3fc258877393da6c8dcbc2115 96731496ffbf0e608f3e5d1c3ccab422b3e08480 98e1e315ad243150b5f53af7c5a085516d4e2f2c 9e070ef2d5e16e7bd3c13c13c37e29f3ab3f2799 a19fed374802183b3dd735285c0daf6e227f5cb7 aa4b72e0deffc65ae058222350a78bd6c3e6381d ab67c060864e6663ef5debdf0c32ef68f4eb84e9 b966b048fd1379d352bf500c2f407c75a14fba0b c92f3c6ad47d24a513e9aa89d330dc422b8392ac d0447333332e79a079864c690a915ef0dad7e75d d61933c800d117f7e25601176dd9f75ddabe75ac d8c6501bccf10e46955d50d6e3c1ed9056916b58 e117db29b4d9dc451c3fec50166d83aac1707916 e9e0e4b78a77c5b539829883c8814e0baed144f9 ef8649fca71cb577dfb5a76715508aa4e9160f21 f1078b7d538e0dd689974abe8610fee15f1a4916 f4cb657705df0238f8dd8245d4bf8e22459eb5ea f7a21965e4068795b8410d9345de9d790a3bb675 fb86f3cbe944a25abc88a65f9637fb499e01e51d
 
 Package: libpipewire-0.3-modules-x11
 Source: pipewire
-Version: 1.6.6-1~aac1
+Version: 1.6.7-1~aac1
 Architecture: amd64
 Maintainer: Utopia Maintenance Team <pkg-utopia-maintainers@alioth-lists.debian.net>
 Installed-Size: 46
-Depends: libcanberra-pulse, libc6 (>= 2.4), libcanberra0 (>= 0.2), libpipewire-0.3-0t64 (= 1.6.6-1~aac1), libx11-6 (>= 2:1.7.0), libxfixes3 (>= 1:6.0.0)
+Depends: libcanberra-pulse, libc6 (>= 2.4), libcanberra0 (>= 0.2), libpipewire-0.3-0t64 (= 1.6.7-1~aac1), libx11-6 (>= 2:1.7.0), libxfixes3 (>= 1:6.0.0)
 Breaks: libpipewire-0.3-modules (<< 0.3.63-3~)
 Replaces: libpipewire-0.3-modules (<< 0.3.63-3~)
-Filename: ./libpipewire-0.3-modules-x11_1.6.6-1~aac1_amd64.deb
-Size: 15152
-MD5sum: e8ede444af707a1bc06678022aded4b9
-SHA1: e6f10f7717c7b0929b535f5951903afd10158f7d
-SHA256: c57b0a537a7d88cea2624f6687e6fc304824ff45492ecdb2c8fe5a54bb6e8467
+Filename: ./libpipewire-0.3-modules-x11_1.6.7-1~aac1_amd64.deb
+Size: 15168
+MD5sum: f5ecf26735ddec781377c527bc82a21f
+SHA1: 57d8896ae291258dff5b5d297329e1e25982de95
+SHA256: 302e7fbbccd287481380ecc5300ab06b8b13088c6e683287d7f08d53a5800f2c
 Section: libs
 Priority: optional
 Multi-Arch: same
@@ -230,35 +230,35 @@ Description: libraries for the PipeWire multimedia server - X11 modules
 
 Package: libpipewire-0.3-modules-x11-dbgsym
 Source: pipewire
-Version: 1.6.6-1~aac1
+Version: 1.6.7-1~aac1
 Auto-Built-Package: debug-symbols
 Architecture: amd64
 Maintainer: Utopia Maintenance Team <pkg-utopia-maintainers@alioth-lists.debian.net>
 Installed-Size: 35
-Depends: libpipewire-0.3-modules-x11 (= 1.6.6-1~aac1)
-Filename: ./libpipewire-0.3-modules-x11-dbgsym_1.6.6-1~aac1_amd64.deb
+Depends: libpipewire-0.3-modules-x11 (= 1.6.7-1~aac1)
+Filename: ./libpipewire-0.3-modules-x11-dbgsym_1.6.7-1~aac1_amd64.deb
 Size: 20964
-MD5sum: 32914a19835cc1a03be8b5414e0021cb
-SHA1: 359a37c2d0af6d3a4ce8dcadebb580a401f394ef
-SHA256: 263917aa87d6f279aa8989aa3be3d6578f3c02186120331f72b8796008e15e2b
+MD5sum: 8f2eaa37fe6fc85ee4b45bca360b7d41
+SHA1: 30fa684048804ba2bd48b360b349dfc4b386b38f
+SHA256: 7b25d4bc52079633e4d982110af701dcfb49804656cb3b460399d4fb5a32c5e9
 Section: debug
 Priority: optional
 Multi-Arch: same
 Description: debug symbols for libpipewire-0.3-modules-x11
-Build-Ids: c1544d24926a0070ec5d179797eb32bb5a4fddbe
+Build-Ids: 253000129f52b43fa7add81f509bcad091582834
 
 Package: libspa-0.2-bluetooth
 Source: pipewire
-Version: 1.6.6-1~aac1
+Version: 1.6.7-1~aac1
 Architecture: amd64
 Maintainer: Utopia Maintenance Team <pkg-utopia-maintainers@alioth-lists.debian.net>
 Installed-Size: 1736
-Depends: libspa-0.2-modules (= 1.6.6-1~aac1), libbluetooth3 (>= 4.91), libc6 (>= 2.38), libdbus-1-3 (>= 1.10), libfdk-aac2t64 (>= 2.0.1), libfreeaptx0 (>= 0.1.1), libglib2.0-0t64 (>= 2.83.0), liblc3-1 (>= 1.0.1), libldacbt-abr2 (>= 2.0.2), libldacbt-enc2 (>= 2.0.2), libopus0 (>= 1.1), libsbc1 (>= 2.1), libspandsp2t64 (>= 0.0.6~pre18), libusb-1.0-0 (>= 2:1.0.16)
-Filename: ./libspa-0.2-bluetooth_1.6.6-1~aac1_amd64.deb
-Size: 462512
-MD5sum: c0725ef48a02552df258f3cac6c530ef
-SHA1: f41a9cca5b18a8531974ebb972f70d4c9234955f
-SHA256: b37de57fa9e3ea92ac48ac5f99eb1f2112e6fa1719d4b9ac75a73d0f6468499b
+Depends: libspa-0.2-modules (= 1.6.7-1~aac1), libbluetooth3 (>= 4.91), libc6 (>= 2.38), libdbus-1-3 (>= 1.10), libfdk-aac2t64 (>= 2.0.1), libfreeaptx0 (>= 0.1.1), libglib2.0-0t64 (>= 2.83.0), liblc3-1 (>= 1.0.1), libldacbt-abr2 (>= 2.0.2), libldacbt-enc2 (>= 2.0.2), libopus0 (>= 1.1), libsbc1 (>= 2.1), libspandsp2t64 (>= 0.0.6~pre18), libusb-1.0-0 (>= 2:1.0.16)
+Filename: ./libspa-0.2-bluetooth_1.6.7-1~aac1_amd64.deb
+Size: 461576
+MD5sum: 58ab43259f27679e54f3773e59658f34
+SHA1: 0b29cbf44d233ae1e6083e6bb407aeda7c4a781b
+SHA256: 2ecb8bdcca1a0258245a441e840e1a9dc70e98ced34e4510d69b963432e75f95
 Section: libs
 Priority: optional
 Multi-Arch: same
@@ -277,35 +277,35 @@ Description: libraries for the PipeWire multimedia server - bluetooth plugins
 
 Package: libspa-0.2-bluetooth-dbgsym
 Source: pipewire
-Version: 1.6.6-1~aac1
+Version: 1.6.7-1~aac1
 Auto-Built-Package: debug-symbols
 Architecture: amd64
 Maintainer: Utopia Maintenance Team <pkg-utopia-maintainers@alioth-lists.debian.net>
-Installed-Size: 2594
-Depends: libspa-0.2-bluetooth (= 1.6.6-1~aac1)
-Filename: ./libspa-0.2-bluetooth-dbgsym_1.6.6-1~aac1_amd64.deb
-Size: 2441316
-MD5sum: 4fcc65912be0950f15edd2011824279f
-SHA1: e9027556131fd82bc6eec1ed3a677f8835758a5d
-SHA256: 882ad9f5aaad1bebc251cdb53c23698a140608f3562b2c72a2730649658caf37
+Installed-Size: 2591
+Depends: libspa-0.2-bluetooth (= 1.6.7-1~aac1)
+Filename: ./libspa-0.2-bluetooth-dbgsym_1.6.7-1~aac1_amd64.deb
+Size: 2438028
+MD5sum: 4d0dd5acc5c84ddf8a4fdccf11c1f5ca
+SHA1: acd6e3a80c1c4d752718ab8b3772ebe7d15431a1
+SHA256: 21b565ca8fc0783a19b47397a3fc11885921b648c2cc13d28e9a6e6f73609e7b
 Section: debug
 Priority: optional
 Multi-Arch: same
 Description: debug symbols for libspa-0.2-bluetooth
-Build-Ids: 1d17438d765ad14923eb91ace8e27bc1c9429ef9 291d1c0acf335c0f9f7cbb339931ca0a0e6ea54d 4ff0c1bf31de555c3289efe9d08047e3bfa531b9 533df282faf332884c041738418d13ea23a21808 6d754c9ab15c5c0a908f769588c2aa7fe225f454 7111e62ee3803427d992ef35baf58e1a0b4704b9 8d2f9b141d12bfa322b2d4c5965d2d72a326087b 98b38da02de4fb0cb10e1dfb7b8e8f0c825e2e9e a140a447330b03913bcc8a9407d11e8a83080a2e c2532233fec8113bf720ffab5d15182c958c1cc0 d7e052e820924d9bf10e7012929d86ccf6df99ce dcaf4cba7ea4d9496b1bbc60d77488d455296257 eeea8eee5801194e37a8b9c248ed9eb6aa63d630 fe38b3526d02e9fa69e3056f84b0eee000f34012
+Build-Ids: 1f88205d886649269f2217922905d9e35cc0af6c 50ece028a99c1d2ff7d6be0c0f0c11d39504ea8f 6a3d375eff7faf18feaa37c6877bd57a898898d4 6e8503b458563c6eba5b8d4408f8f737d1ac840c 91483725be01b6ca9e4b48d3ba688bd070d4a529 96bb7f8ac619bddd5d7a6b33ae9af5ee9790bfbd 9cd7d4144d3929b75ea4a4a414e7574567e50fbe 9edb903820b91ea51e2c83f58e93eb295e9cb837 a8b2c57bb58ad10dded021a332cec0933d432c77 b26e00efd208a62398f39f83daf613985bf65c50 b692a565c075d3d275136a65fff72e201fac2050 c3772c36bebd0a061f488d5af1547486a87d0d92 c9ff734458fa28e703c00a288a1dea70bc9f1f42 d343112e8dd98649ffbe75160f9b1a0eb3e6a306
 
 Package: libspa-0.2-dev
 Source: pipewire
-Version: 1.6.6-1~aac1
+Version: 1.6.7-1~aac1
 Architecture: amd64
 Maintainer: Utopia Maintenance Team <pkg-utopia-maintainers@alioth-lists.debian.net>
 Installed-Size: 823
 Suggests: pipewire-doc
-Filename: ./libspa-0.2-dev_1.6.6-1~aac1_amd64.deb
-Size: 122268
-MD5sum: 66dc49bab5ba0b16c167ab7542af21cf
-SHA1: 4fc134a575f9961d0c6afff343f8723d162395bd
-SHA256: 2f1474a6d49ff2dd30e297512d2d6b28a0eda8ab152dec709da0283af54bc537
+Filename: ./libspa-0.2-dev_1.6.7-1~aac1_amd64.deb
+Size: 122276
+MD5sum: 59ef947914846f20817a865937e6b530
+SHA1: af790923c99d80dc7cf90695ad4ce2fe22e27c50
+SHA256: 8c0f156b52a877e58632a1a0a4c9d5a1eb691361b1115b0fdd7ae38998b79556
 Section: libdevel
 Priority: optional
 Multi-Arch: same
@@ -323,16 +323,16 @@ Description: libraries for the PipeWire multimedia server Simple Plugin API - de
 
 Package: libspa-0.2-jack
 Source: pipewire
-Version: 1.6.6-1~aac1
+Version: 1.6.7-1~aac1
 Architecture: amd64
 Maintainer: Utopia Maintenance Team <pkg-utopia-maintainers@alioth-lists.debian.net>
 Installed-Size: 280
-Depends: libspa-0.2-modules (= 1.6.6-1~aac1), libc6 (>= 2.38), libjack-jackd2-0 (>= 1.9.10+20150825) | libjack-0.125
-Filename: ./libspa-0.2-jack_1.6.6-1~aac1_amd64.deb
-Size: 59936
-MD5sum: ab199be29e60950cb33b2686ee0b7db0
-SHA1: 60c3c6d5290117ca42af3a2f7e75cfd6cdfb5f54
-SHA256: 4c74dd0a88830887886735e9b2693234490c35d9144d041c67864088a51006e0
+Depends: libspa-0.2-modules (= 1.6.7-1~aac1), libc6 (>= 2.38), libjack-jackd2-0 (>= 1.9.10+20150825) | libjack-0.125
+Filename: ./libspa-0.2-jack_1.6.7-1~aac1_amd64.deb
+Size: 59736
+MD5sum: 06636fa426647423a12d301e316f9809
+SHA1: 706e7db0327a2d118e2190526b286ca172bb5073
+SHA256: c24c01321fe62ee859dca77a0152326ea506d75375200f1e8262a413494bfd2e
 Section: libs
 Priority: optional
 Multi-Arch: same
@@ -351,38 +351,38 @@ Description: libraries for the PipeWire multimedia server - JACK client
 
 Package: libspa-0.2-jack-dbgsym
 Source: pipewire
-Version: 1.6.6-1~aac1
+Version: 1.6.7-1~aac1
 Auto-Built-Package: debug-symbols
 Architecture: amd64
 Maintainer: Utopia Maintenance Team <pkg-utopia-maintainers@alioth-lists.debian.net>
-Installed-Size: 367
-Depends: libspa-0.2-jack (= 1.6.6-1~aac1)
-Filename: ./libspa-0.2-jack-dbgsym_1.6.6-1~aac1_amd64.deb
-Size: 355144
-MD5sum: 6cf5ceb74300124ac546b068325f9cfa
-SHA1: a05afe5fdaf8c57f469c573dfdb3f85a251f4462
-SHA256: 1459c8aceb8929d9b8cd18248cc86aad5adf1a9b1151714773e368c44c24d511
+Installed-Size: 364
+Depends: libspa-0.2-jack (= 1.6.7-1~aac1)
+Filename: ./libspa-0.2-jack-dbgsym_1.6.7-1~aac1_amd64.deb
+Size: 351704
+MD5sum: 8607e4e7278682666ecd335baa2fdc83
+SHA1: 3fa57d8e610bac3f08ab4def991bf2f32788d26f
+SHA256: 2d57b67eb188d5fad9aaf8794945601616b75a4c6ca4f5133f0beb631f6a2fb8
 Section: debug
 Priority: optional
 Multi-Arch: same
 Description: debug symbols for libspa-0.2-jack
-Build-Ids: e533d47bc2ebe37a8f64ce0b0443760cc317db8e
+Build-Ids: b384487e8e8e2f62f96672afc9679211e3e1451c
 
 Package: libspa-0.2-libcamera
 Source: pipewire
-Version: 1.6.6-1~aac1
+Version: 1.6.7-1~aac1
 Architecture: amd64
 Maintainer: Utopia Maintenance Team <pkg-utopia-maintainers@alioth-lists.debian.net>
 Installed-Size: 172
-Depends: libspa-0.2-modules (= 1.6.6-1~aac1), libc6 (>= 2.32), libcamera0.7 (>= 0.7.1), libgcc-s1 (>= 3.0), libstdc++6 (>= 14)
+Depends: libspa-0.2-modules (= 1.6.7-1~aac1), libc6 (>= 2.32), libcamera0.7 (>= 0.7.1), libgcc-s1 (>= 3.0), libstdc++6 (>= 14)
 Breaks: pipewire-libcamera (<< 0.3.72-1~)
 Replaces: pipewire-libcamera (<< 0.3.72-1~)
 Provides: pipewire-libcamera
-Filename: ./libspa-0.2-libcamera_1.6.6-1~aac1_amd64.deb
-Size: 67632
-MD5sum: c92e1205a16b5282abbe1a0711ca0ea3
-SHA1: 483d28de1fbde5c30fbb7dd6fca37ee9e24e4997
-SHA256: 48dc1aed539f0b74db5f9fe5746ab0d852ef42809c645a4fd933c38f169c4e78
+Filename: ./libspa-0.2-libcamera_1.6.7-1~aac1_amd64.deb
+Size: 67228
+MD5sum: f4e197fb5b47d46df5b9844cf5f1bad7
+SHA1: d6372ba09e75dd899b4d91c2d2329927d1b7d29c
+SHA256: 9d33b0bf0c3d26e6a044b471505ef17b59b491dd2fa2f8d86595d35d4ee18558
 Section: video
 Priority: optional
 Multi-Arch: same
@@ -401,37 +401,37 @@ Description: libraries for the PipeWire multimedia server - libcamera plugin
 
 Package: libspa-0.2-libcamera-dbgsym
 Source: pipewire
-Version: 1.6.6-1~aac1
+Version: 1.6.7-1~aac1
 Auto-Built-Package: debug-symbols
 Architecture: amd64
 Maintainer: Utopia Maintenance Team <pkg-utopia-maintainers@alioth-lists.debian.net>
 Installed-Size: 663
-Depends: libspa-0.2-libcamera (= 1.6.6-1~aac1)
-Filename: ./libspa-0.2-libcamera-dbgsym_1.6.6-1~aac1_amd64.deb
-Size: 639420
-MD5sum: 5981432ddd816759539d6afffa430f5a
-SHA1: 422691e638532d07b92a77fdbac7ec4b1f077950
-SHA256: a07097807bbcdb4fabb91826e45fab6ade8fd5134c14494c88b2ff7d21613df4
+Depends: libspa-0.2-libcamera (= 1.6.7-1~aac1)
+Filename: ./libspa-0.2-libcamera-dbgsym_1.6.7-1~aac1_amd64.deb
+Size: 640040
+MD5sum: 66b214a4486011415ccd1d9baa9d9e49
+SHA1: f429307aa7ee6a0255d8124f4ac37636b51db60c
+SHA256: bdbf8ac032960895b70d52e0736e7943cd781882f903e3b543dbb0acae7a631c
 Section: debug
 Priority: optional
 Multi-Arch: same
 Description: debug symbols for libspa-0.2-libcamera
-Build-Ids: f16798f68410bd4cda5e5f38d4c18436641a0271
+Build-Ids: 205dcf988e1779a9abb3591b25031ef0e254111c
 
 Package: libspa-0.2-modules
 Source: pipewire
-Version: 1.6.6-1~aac1
+Version: 1.6.7-1~aac1
 Architecture: amd64
 Maintainer: Utopia Maintenance Team <pkg-utopia-maintainers@alioth-lists.debian.net>
 Installed-Size: 4653
-Depends: libasound2t64 (>= 1.2.10), libc6 (>= 2.38), libdbus-1-3 (>= 1.10), libebur128-1 (>= 1.2.0), libfftw3-single3 (>= 3.3.10), libgcc-s1 (>= 3.0), liblilv-0-0 (>= 0.14.2~dfsg0), libmysofa1 (>= 0.6~), libonnxruntime1.23 (>= 1.23.1), libsndfile1 (>= 1.0.20), libstdc++6 (>= 12), libsystemd0, libudev1 (>= 183), libwebrtc-audio-processing-1-3 (>= 1.3)
+Depends: libasound2t64 (>= 1.2.10), libc6 (>= 2.38), libdbus-1-3 (>= 1.10), libebur128-1 (>= 1.2.0), libfftw3-single3 (>= 3.3.11), libgcc-s1 (>= 3.0), liblilv-0-0 (>= 0.14.2~dfsg0), libmysofa1 (>= 0.6~), libonnxruntime1.23 (>= 1.23.1), libsndfile1 (>= 1.0.20), libstdc++6 (>= 12), libsystemd0, libudev1 (>= 183), libwebrtc-audio-processing-1-3 (>= 1.3)
 Breaks: pipewire (<< 0.3.5)
 Replaces: pipewire (<< 0.3.5)
-Filename: ./libspa-0.2-modules_1.6.6-1~aac1_amd64.deb
-Size: 1095924
-MD5sum: 46cf25fb7ccef250c6a06f94ad14b686
-SHA1: 2ca5abdcd93189080cc8af7f5410b3e6e8229b26
-SHA256: d68f0b767d4d4096e3d2c88d3325cab3a349821aa50aadef9f256015deffd44e
+Filename: ./libspa-0.2-modules_1.6.7-1~aac1_amd64.deb
+Size: 1098240
+MD5sum: 542d8d817c473244f6acf9192a0f4b6b
+SHA1: 962e2d1782674f4b37491d61dc972e153a0426e2
+SHA256: 207bd69c70ae0adb69b7d5a50aefeebc477e526f8e265b32f00c9ef0c8b4df96
 Section: libs
 Priority: optional
 Multi-Arch: same
@@ -452,34 +452,34 @@ Description: libraries for the PipeWire multimedia server Simple Plugin API - mo
 
 Package: libspa-0.2-modules-dbgsym
 Source: pipewire
-Version: 1.6.6-1~aac1
+Version: 1.6.7-1~aac1
 Auto-Built-Package: debug-symbols
 Architecture: amd64
 Maintainer: Utopia Maintenance Team <pkg-utopia-maintainers@alioth-lists.debian.net>
-Installed-Size: 5870
-Depends: libspa-0.2-modules (= 1.6.6-1~aac1)
-Filename: ./libspa-0.2-modules-dbgsym_1.6.6-1~aac1_amd64.deb
-Size: 5674932
-MD5sum: 5627994a6752e6b955f7c8b343dcfaee
-SHA1: e710228582acf955268298db6b219607b2630bf4
-SHA256: 849dd8cf619fb842d1d64503701c8f189d6e2ac50a972aca1ed8dd05fae6ac87
+Installed-Size: 5840
+Depends: libspa-0.2-modules (= 1.6.7-1~aac1)
+Filename: ./libspa-0.2-modules-dbgsym_1.6.7-1~aac1_amd64.deb
+Size: 5646808
+MD5sum: 6d181383d7ef4d885fa855f272353859
+SHA1: 494b97ec8538d7b5372654a2336b3fac8bbb94e0
+SHA256: 48347c272d3beec8b7306d83c28143b0cc3cd9fdd3cc531e7c1d85f0f02c2f66
 Section: debug
 Priority: optional
 Multi-Arch: same
 Description: debug symbols for libspa-0.2-modules
-Build-Ids: 031ad26342945abe110b58971f9822965cecdaec 16b190ace52e9e1e40ffeb62fe5cc4a07c2ce9ef 170c6c8ab6406da01a4d2569fe4ea1b30b8ccc37 17574f23565ba8e0aab41f946317861d5c0e6a6e 304e618378c8e1f1b1dffce8ce7bac95b43cacbb 339865ab44306bb478707e99abe9b94911791e30 377a13182d486068b311ca9a0dc3606901adee60 41807f646e610a95dd759a237bf690ced9eb080d 4a35ac3d91f3a0283e545453233039b464be4e94 53e1d45a166a7232c19d54cd2ec0aa086be3c0e9 57912ce296d5811ac0bccba09047ede4b6972a38 73290ee9961535eebcfdfbbc06acfb1f47c73246 7a990b684e6df180e45092b7be25138887e78762 8dddd0b028d26292de4997a5d8e998e628a9f050 9d29b99787b257c44b8a1e7f5d1a669776e7dda6 a3d4be962bdfd02a8fd749e7b8a3f87984cfcdb4 a8b0b73039ebb4255539b185d3db8dcfdc12c166 a99a0a5473cd1fce9d373e104afd1624f68179c3 c18b1b2e641b3e18802213c5bf9a6647e20d32b2 d1099a719177196385b71c1d45ac481f3881e98e d2960b381e1cb3553b9530160c6addb3a27de801 fb1807dfc179a3f35b0066cd83c453fbdb8fbed7 fd7d454429c75282cfdc5cf5bfcbed6fc4ec8c5e
+Build-Ids: 1d3287f47c5806af19ea53c3631e740ec604246b 207a1e8686658ede8b5f91e5201b7624bf88b097 25b97dc0716b195a15f185f160614a4e713805cb 26e695bccea6ebd8ea3153bebfdeefa76aec1390 3047a4c5aa5c82daaf6190842f6484f112407397 3382591909a92cd9051e5723936956935f129bf9 35eb10624cc9ccc51c5f2a05da17824c9ede7760 3b962637ab11db2fed09cf690350d83f1ab32679 5be3f11740a9320852b259926e95f69312116222 620ebb85152bc7dad93f2f5bab01e04ddcd951ca 70d3d30f248bdbd98bdebe8d329bc5ade154f48a 7c4cd4cc11baf7d40579002375c66f420d62456e 8148574bded93089ea21df30c76dcfdf5d26757f 831ada43a50cc7d10effc22ec3de5fcab5e5f0c1 850568dabcddb320a5dc4734ca18576f1e582c4c 883af3f1332e81e7461d33894f04930b432d9601 9a55e3f9553480173d3cfb374ced74a8a6d9127a b4a063b360be9c19112142d967c609280d83e95c c6a33ad2af1386c3cd416df9389c75c67911eecd f47f0026fcd8ae088bdf18181c64003b4cbc64bd f8165984872e77f43e479faef2c6aecd0643618a f9c24e89a7be98e65772ca5270405144b978d388 fe2699dbc783563799fa381c14451a2ed59f7f88
 
 Package: pipewire
-Version: 1.6.6-1~aac1
+Version: 1.6.7-1~aac1
 Architecture: amd64
 Maintainer: Utopia Maintenance Team <pkg-utopia-maintainers@alioth-lists.debian.net>
-Installed-Size: 136
-Depends: libpipewire-0.3-modules (= 1.6.6-1~aac1), pipewire-bin (= 1.6.6-1~aac1), systemd | systemd-standalone-sysusers | systemd-sysusers
-Filename: ./pipewire_1.6.6-1~aac1_amd64.deb
-Size: 115964
-MD5sum: ff0784f3ca267520c2a2bd53ca80f67d
-SHA1: cd501aba825f30af2531c64f459918ada2824b37
-SHA256: ace35b2dbdebe70728add524d66319181a5f32ee31336e85aeec1018b5e70778
+Installed-Size: 135
+Depends: libpipewire-0.3-modules (= 1.6.7-1~aac1), pipewire-bin (= 1.6.7-1~aac1), systemd | systemd-standalone-sysusers | systemd-sysusers
+Filename: ./pipewire_1.6.7-1~aac1_amd64.deb
+Size: 116316
+MD5sum: 79de2eb0b3bcc1a88308969a5e0a818a
+SHA1: 5d3c445757c60903a048f083a2bfef22ab6c2e81
+SHA256: 67a2314fd1797c2e25a9d8f1f8ef9da8498857703d03a9d1fe00db162d628a79
 Section: video
 Priority: optional
 Multi-Arch: same
@@ -499,19 +499,19 @@ Description: audio and video processing engine multimedia server
 
 Package: pipewire-alsa
 Source: pipewire
-Version: 1.6.6-1~aac1
+Version: 1.6.7-1~aac1
 Architecture: amd64
 Maintainer: Utopia Maintenance Team <pkg-utopia-maintainers@alioth-lists.debian.net>
 Installed-Size: 190
-Depends: pipewire (= 1.6.6-1~aac1), libasound2t64 (>= 1.2.15), libc6 (>= 2.38), libpipewire-0.3-0t64 (= 1.6.6-1~aac1)
+Depends: pipewire (= 1.6.7-1~aac1), libasound2t64 (>= 1.2.15), libc6 (>= 2.38), libpipewire-0.3-0t64 (= 1.6.7-1~aac1)
 Conflicts: pulseaudio
 Breaks: pipewire-audio-client-libraries (<< 0.3.54-1~)
 Replaces: pipewire-audio-client-libraries (<< 0.3.54-1~)
-Filename: ./pipewire-alsa_1.6.6-1~aac1_amd64.deb
-Size: 52780
-MD5sum: e58cef56cddd6a02624ff42af08c6710
-SHA1: 09c5605ea2d491d062fa42e7b412999362114699
-SHA256: 45aff920e1103caf7f02a3bd7c8555973ecfd14fe1bb55a6c14aa21e88697d4a
+Filename: ./pipewire-alsa_1.6.7-1~aac1_amd64.deb
+Size: 52752
+MD5sum: 1c50a48bd8e800e533ca91c002f466f6
+SHA1: 69d12caaa040a93e9617fba58187ff171bda6c34
+SHA256: 7045ed0283976d2827344e178f6730d31e3969eae9596d9866df855438846836
 Section: sound
 Priority: optional
 Multi-Arch: same
@@ -529,37 +529,37 @@ Description: PipeWire ALSA plugin, for ALSA applications to output via PipeWire
 
 Package: pipewire-alsa-dbgsym
 Source: pipewire
-Version: 1.6.6-1~aac1
+Version: 1.6.7-1~aac1
 Auto-Built-Package: debug-symbols
 Architecture: amd64
 Maintainer: Utopia Maintenance Team <pkg-utopia-maintainers@alioth-lists.debian.net>
 Installed-Size: 253
-Depends: pipewire-alsa (= 1.6.6-1~aac1)
-Filename: ./pipewire-alsa-dbgsym_1.6.6-1~aac1_amd64.deb
-Size: 226704
-MD5sum: c6bdbf31a1cfa04b2001f2a4daebede6
-SHA1: b14cf58d17179934d59593d26584eb4983f23b34
-SHA256: 14617975606f51fce915b265637c2d01750272140290e325c1b1e75391e68f2f
+Depends: pipewire-alsa (= 1.6.7-1~aac1)
+Filename: ./pipewire-alsa-dbgsym_1.6.7-1~aac1_amd64.deb
+Size: 226648
+MD5sum: 3a8e144900219cc9ffde1682ab13408b
+SHA1: c2e802fac6b6034cb21e491667112dfef7f9e342
+SHA256: ac11f3b0c444cfe95c9670868a44c251206a2a520a684ab2441926617610147c
 Section: debug
 Priority: optional
 Multi-Arch: same
 Description: debug symbols for pipewire-alsa
-Build-Ids: 8ad9c1c05a37a00c0960fad7eb261d03487ac4b8 eecb9f6cecece5f5174a384a6fbdfd3da9680a57
+Build-Ids: 55e8b04ca4291a5674feacdfaa16e5e90934745b f4657abe164017e3947073f41ea50422227489f6
 
 Package: pipewire-audio
 Source: pipewire
-Version: 1.6.6-1~aac1
+Version: 1.6.7-1~aac1
 Architecture: all
 Maintainer: Utopia Maintenance Team <pkg-utopia-maintainers@alioth-lists.debian.net>
 Installed-Size: 21
 Depends: libspa-0.2-bluetooth, pipewire-alsa, pipewire-pulse, wireplumber (>= 0.5.0)
 Conflicts: pulseaudio, pulseaudio-module-bluetooth
 Replaces: pulseaudio, pulseaudio-module-bluetooth
-Filename: ./pipewire-audio_1.6.6-1~aac1_all.deb
-Size: 10120
-MD5sum: 3d8e9d4c72128082ba53611d9346088c
-SHA1: a8c280d69540bb2ad44737f72acf5bc2282ec84e
-SHA256: e181b49a083f29a5c1ed0a3c49f1c636538c011764a4a8953b269703a1b24f2a
+Filename: ./pipewire-audio_1.6.7-1~aac1_all.deb
+Size: 10132
+MD5sum: c78e5b3bc8d992e8c06153f159ff6b84
+SHA1: a1e1f560bb0253c3bc6efec2a5f94dac4932e3c5
+SHA256: 5dc2ce96e5550c4b7a414f0768c52c11036fe25120e6ecda537b198280e5d5c4
 Section: sound
 Priority: optional
 Homepage: https://pipewire.org/
@@ -577,16 +577,16 @@ Description: recommended set of PipeWire packages for a standard audio desktop u
 
 Package: pipewire-audio-client-libraries
 Source: pipewire
-Version: 1.6.6-1~aac1
+Version: 1.6.7-1~aac1
 Architecture: all
 Maintainer: Utopia Maintenance Team <pkg-utopia-maintainers@alioth-lists.debian.net>
 Installed-Size: 21
 Depends: pipewire-alsa, pipewire-jack
-Filename: ./pipewire-audio-client-libraries_1.6.6-1~aac1_all.deb
-Size: 9928
-MD5sum: b2b107eb0e775a095c5b9d8b919bf924
-SHA1: d58006f34cd78081947b26d7c63397674ac63f46
-SHA256: 4ba11d91a4cc562f5139684869dafa48ab7876ef7322b9d7d9e35d4ad4e59847
+Filename: ./pipewire-audio-client-libraries_1.6.7-1~aac1_all.deb
+Size: 9936
+MD5sum: d2260f68ffd3d572f043842b11cbb027
+SHA1: 150ff43d7e9c05f64102af9c8380e86d3b13c32c
+SHA256: b397aa4fd3eadda7929a0488b3a2e6a9adb5420049c2c652b0424b8499b4c073
 Section: oldlibs
 Priority: optional
 Homepage: https://pipewire.org/
@@ -599,19 +599,19 @@ Description: transitional package for pipewire-alsa and pipewire-jack
 
 Package: pipewire-bin
 Source: pipewire
-Version: 1.6.6-1~aac1
+Version: 1.6.7-1~aac1
 Architecture: amd64
 Maintainer: Utopia Maintenance Team <pkg-utopia-maintainers@alioth-lists.debian.net>
-Installed-Size: 2217
-Depends: libpipewire-0.3-modules (= 1.6.6-1~aac1), libasound2t64 (>= 1.2.6), libc6 (>= 2.38), libdbus-1-3 (>= 1.10), libncursesw6 (>= 6), libpipewire-0.3-0t64 (= 1.6.6-1~aac1), libreadline8t64 (>= 6.0), libsndfile1 (>= 1.0.20), libtinfo6 (>= 6)
+Installed-Size: 2219
+Depends: libpipewire-0.3-modules (= 1.6.7-1~aac1), libasound2t64 (>= 1.2.6), libc6 (>= 2.38), libdbus-1-3 (>= 1.10), libncursesw6 (>= 6), libpipewire-0.3-0t64 (= 1.6.7-1~aac1), libreadline8t64 (>= 6.0), libsndfile1 (>= 1.0.20), libtinfo6 (>= 6)
 Recommends: dbus-user-session, rtkit, wireplumber
 Breaks: pipewire (<< 0.3.5)
 Replaces: pipewire (<< 0.3.5)
-Filename: ./pipewire-bin_1.6.6-1~aac1_amd64.deb
-Size: 597548
-MD5sum: 283ec95f819afa795b04ee2ed430c05e
-SHA1: 59f2886aa16c711bdfc2863134aa24a45ee3c80c
-SHA256: e12806f2b3f46d6aa75440ca9a7c128a570873f4701c922ffcf4b8a08afecdc7
+Filename: ./pipewire-bin_1.6.7-1~aac1_amd64.deb
+Size: 599804
+MD5sum: d657ff5e8769fd8cb0abcc2a68361f99
+SHA1: 5e0985f89a9fb1f535410b9c2b4f7293bcafc37b
+SHA256: 05f703eadb67d94a1f6a5d644f653d7959bf5a89a8f76b60ba2b2d0698c1800e
 Section: video
 Priority: optional
 Multi-Arch: foreign
@@ -631,35 +631,35 @@ Description: PipeWire multimedia server - programs
 
 Package: pipewire-bin-dbgsym
 Source: pipewire
-Version: 1.6.6-1~aac1
+Version: 1.6.7-1~aac1
 Auto-Built-Package: debug-symbols
 Architecture: amd64
 Maintainer: Utopia Maintenance Team <pkg-utopia-maintainers@alioth-lists.debian.net>
-Installed-Size: 2198
-Depends: pipewire-bin (= 1.6.6-1~aac1)
-Filename: ./pipewire-bin-dbgsym_1.6.6-1~aac1_amd64.deb
-Size: 1338192
-MD5sum: 1d63459eac5093ffcfe952930dd3c2c6
-SHA1: 69b5d3a4e1acd3613bdff7dca101e965b49a6908
-SHA256: cbd8921987be20ab8ad9d3a9205c9a7f8952467e7892dca7385462edbb2fa702
+Installed-Size: 2196
+Depends: pipewire-bin (= 1.6.7-1~aac1)
+Filename: ./pipewire-bin-dbgsym_1.6.7-1~aac1_amd64.deb
+Size: 1337776
+MD5sum: 2a7af50a7569653f563d4d98b8af7c9a
+SHA1: f2048f09acb46b8498e5cc22ce8a0c0730a50c3c
+SHA256: 754dfa4e2242c89142a607ca0346429976cd3033e335db1d1c19bcfd3ba16e96
 Section: debug
 Priority: optional
 Description: debug symbols for pipewire-bin
-Build-Ids: 10478d9ff6726c8110f75730d42a72e5e1ba2476 1d34f2b318b8ef7e4d7293e05e87d289cf528618 29ae571cfd9d4b526ebc18d970614b3aef2f9335 3efefe56aeb79314ed219594e8cfcfd73fc2a561 44f3ce5b89467d45412e63196ee15d3ece9b6afd 484b48644c40ed0efbd6948f422af467396aa9e2 636913ffec123efe8212fcfac7e37a72773d9be2 6bd7615d4e665670fdbff814b71a8de30b0cd1b5 7abe9bff8cea319a3ea665e95b673d488b518508 7bcf30af39312f6a29ed328884fc29152487db1f 7cc936d71934f3c2bf7785f71b9a3e36878a5be8 95fcc2e56fe0bc862db08969304e7e0b267b7c9b a55a5fcd1163b41620cda463acb7ed04a91b552f ab46cac69fe554c29fb3b8ec224155f1d8da4246 b703afc008d6cfdc95cf98ef617583c7f83eabb9 b977a38270d2c24b11104459944654f31c4582f4 be512b4373558508196ed70c5e6350870d56670b ce0ebdeac29beeb09cde8e65021c9ca74ac7add7 eff1f799ca9fcf1777d8fe408c225f98256aab1c f5132fbf0f2f101d9d698dfd863b30f6062bf410
+Build-Ids: 0efad6367b310762b0559576ab26320b144646ea 27ec4ea5a5faa3ce29825c93d56bb5a09752549b 2f132a9afc71ef1da43ce7118d3eff8af81ccae8 47435b7e2c58d7f67adcc9c0c13d1e01c1e408f3 4f06fe1f6864713bad8c8d9ed4761b87ba5d8163 52878d196a4a1ee0071666d3aec999e412b9853e 5f1a6859886fa675c7f4708b7f2b4d3c65deaec7 73bfe3307460dda4a8e367c3dd315fab85fdad44 7e49038cbc9daf1b2fccd7f85be0a5a062376740 a31d39fb90d62f713850ab4e79126a0c791a91cd ac27aa44ec1b45ecb98cd9f2d4c176d52bf16e03 b29b506b8d7b84aecd9f52f8dad43e0c42183e25 b8b7c8dd801bed22fb6d95dd159be053f6ec21eb ba43964d1042b109ceb705a2f4de14b813ef9653 c5724f622af9a79e8757b4dd904978fd9acf948a c94a999ab5fe56000aafe637011654c2fd1a65b0 cb750d30aa8f2c7cb918669827794c43b53c64be d2c0545347bc1d5fffe1c5804e436212475fe78f e70ef8a10b6f3c4aaf3c9f23859ad4122d2f0abd fef68a3e9485517b4fa764667ad260eba88cfd33
 
 Package: pipewire-doc
 Source: pipewire
-Version: 1.6.6-1~aac1
+Version: 1.6.7-1~aac1
 Architecture: all
 Maintainer: Utopia Maintenance Team <pkg-utopia-maintainers@alioth-lists.debian.net>
-Installed-Size: 32798
+Installed-Size: 32799
 Breaks: libpipewire-0.2-doc (<< 0.3.1)
 Replaces: libpipewire-0.2-doc (<< 0.3.1)
-Filename: ./pipewire-doc_1.6.6-1~aac1_all.deb
-Size: 1911444
-MD5sum: 244cdd1677b5977087db8ecccc600f11
-SHA1: 96e8eac5e8d1279f2458d615699ff01b8100f2ca
-SHA256: 4188efe92cd5ff797f5f51802cc7c8132e7473c47a48bb66888c13953cf66ae1
+Filename: ./pipewire-doc_1.6.7-1~aac1_all.deb
+Size: 1911232
+MD5sum: ce90a88a7836702f6899730f8e581cd4
+SHA1: 48b8f8bd4334574b5c9ed749c8882b0b79d3bed1
+SHA256: 3ce5f6769fee9e0d1c66b922d879cd1cd89ec83e2493387fcba818343ca2dafd
 Section: doc
 Priority: optional
 Multi-Arch: foreign
@@ -677,18 +677,18 @@ Description: libraries for the PipeWire multimedia server - documentation
 
 Package: pipewire-jack
 Source: pipewire
-Version: 1.6.6-1~aac1
+Version: 1.6.7-1~aac1
 Architecture: amd64
 Maintainer: Utopia Maintenance Team <pkg-utopia-maintainers@alioth-lists.debian.net>
 Installed-Size: 556
-Depends: pipewire (= 1.6.6-1~aac1), libc6 (>= 2.38), libpipewire-0.3-0t64 (= 1.6.6-1~aac1)
+Depends: pipewire (= 1.6.7-1~aac1), libc6 (>= 2.38), libpipewire-0.3-0t64 (= 1.6.7-1~aac1)
 Breaks: pipewire-audio-client-libraries (<< 0.3.54-1~)
 Replaces: pipewire-audio-client-libraries (<< 0.3.54-1~)
-Filename: ./pipewire-jack_1.6.6-1~aac1_amd64.deb
-Size: 128924
-MD5sum: 984830e0069f3b7cebf7c86acd6b9faa
-SHA1: e2c71cbc74cb961f35dd3e3ef1c2a6f22d4c0d28
-SHA256: 0ff1623f23af4be94ba2a64435eb0484957ee1cd99374ccff5e6835eb8cf70d2
+Filename: ./pipewire-jack_1.6.7-1~aac1_amd64.deb
+Size: 128908
+MD5sum: bfac773f6a4a67c09af27f2c9b0a47fd
+SHA1: f7ee452b5d807f3d5e645ad82902133317f74738
+SHA256: 6c8a8f993457a28e963abe9cea21687c202f17faeb567fe618bc6c6f2f7749b2
 Section: sound
 Priority: optional
 Multi-Arch: same
@@ -706,35 +706,35 @@ Description: PipeWire JACK plugin, for JACK applications to output via PipeWire
 
 Package: pipewire-jack-dbgsym
 Source: pipewire
-Version: 1.6.6-1~aac1
+Version: 1.6.7-1~aac1
 Auto-Built-Package: debug-symbols
 Architecture: amd64
 Maintainer: Utopia Maintenance Team <pkg-utopia-maintainers@alioth-lists.debian.net>
 Installed-Size: 723
-Depends: pipewire-jack (= 1.6.6-1~aac1)
-Filename: ./pipewire-jack-dbgsym_1.6.6-1~aac1_amd64.deb
-Size: 661720
-MD5sum: f75368824763af68f4eb5c5106862125
-SHA1: 43e73992b47438c8964bc8049d65aa5089d99d54
-SHA256: 68dbf25d61a6f53adb1a0fc10ef8de5f501e36024b47f9b684ad0c6399958cf4
+Depends: pipewire-jack (= 1.6.7-1~aac1)
+Filename: ./pipewire-jack-dbgsym_1.6.7-1~aac1_amd64.deb
+Size: 660692
+MD5sum: c9a12d420622bfb75febb2ab23720b0e
+SHA1: 871c5b317bd870c58a6a0ce3f18b0b0664396626
+SHA256: 886fd922447d7634fc868835e17cde85cf745d8d5470e76f21a09297f89cc099
 Section: debug
 Priority: optional
 Multi-Arch: same
 Description: debug symbols for pipewire-jack
-Build-Ids: 14e9a99699ce48615802f9c46dacbd12ba42655a 3f2b334a066d3a2791a7a69e96e879a725654297 97540e06785cb14f812b209aefa359c47f62a5d3
+Build-Ids: 3889773f6c89475d963de94f6edc178ee437e3a1 ca45a346a9c90064fde94886bf1ca61d58f81cb8 d2bd2b8bc36a1f9eaabfbf6778ff563cec7f0002
 
 Package: pipewire-libcamera
 Source: pipewire
-Version: 1.6.6-1~aac1
+Version: 1.6.7-1~aac1
 Architecture: all
 Maintainer: Utopia Maintenance Team <pkg-utopia-maintainers@alioth-lists.debian.net>
 Installed-Size: 21
 Depends: libspa-0.2-libcamera
-Filename: ./pipewire-libcamera_1.6.6-1~aac1_all.deb
-Size: 9880
-MD5sum: 6d5b9f8aefc3293755307df4438c942c
-SHA1: 51c041751d3621f276e3af4aca0b73d0ef5ee025
-SHA256: 802203edeaa9c673dec7fd3bedc8b10df8c9d754b4d918efb50ca80dfc0c6de2
+Filename: ./pipewire-libcamera_1.6.7-1~aac1_all.deb
+Size: 9904
+MD5sum: 9965358e4d13eb7b6032d6086214360e
+SHA1: aa162ff5ceaf506d63170a1c632bc93db9da0529
+SHA256: 0e0563d82cd163563856e3a8bbc4f2d91196ce012213b28d3c7bd764886c780c
 Section: oldlibs
 Priority: optional
 Homepage: https://pipewire.org/
@@ -747,21 +747,21 @@ Description: transitional package for libspa-0.2-libcamera
 
 Package: pipewire-pulse
 Source: pipewire
-Version: 1.6.6-1~aac1
+Version: 1.6.7-1~aac1
 Architecture: amd64
 Maintainer: Utopia Maintenance Team <pkg-utopia-maintainers@alioth-lists.debian.net>
 Installed-Size: 53
-Depends: pipewire (= 1.6.6-1~aac1), dconf-gsettings-backend | gsettings-backend
+Depends: pipewire (= 1.6.7-1~aac1), dconf-gsettings-backend | gsettings-backend
 Recommends: wireplumber
 Suggests: libspa-0.2-bluetooth, pulseaudio-utils
 Conflicts: pulseaudio-module-gsettings
 Breaks: pipewire-bin (<< 0.3.27-2)
 Replaces: pipewire-bin (<< 0.3.27-2)
-Filename: ./pipewire-pulse_1.6.6-1~aac1_amd64.deb
+Filename: ./pipewire-pulse_1.6.7-1~aac1_amd64.deb
 Size: 15320
-MD5sum: 27351ae658b0cbdc3a9e538cea8896d8
-SHA1: 4495f034b2092c464491a470d073d5550ae2f570
-SHA256: cb4d577893423ca3050d86f5964935a04f2dd76d1f5d09123de5f91d52faee15
+MD5sum: ea6ae03cb0d7c12fd87806426bd9ecf0
+SHA1: a2ddb9cac495315512e5386f34530c47cac467f8
+SHA256: 20a8116931159359a69b111d76c4d91b2267413636c37658481228797153c6ed
 Section: sound
 Priority: optional
 Multi-Arch: foreign
@@ -779,16 +779,16 @@ Description: PipeWire PulseAudio daemon
 
 Package: pipewire-system-services
 Source: pipewire
-Version: 1.6.6-1~aac1
+Version: 1.6.7-1~aac1
 Architecture: all
 Maintainer: Utopia Maintenance Team <pkg-utopia-maintainers@alioth-lists.debian.net>
 Installed-Size: 40
 Depends: pipewire, pipewire-pulse, wireplumber-system-services
-Filename: ./pipewire-system-services_1.6.6-1~aac1_all.deb
-Size: 12004
-MD5sum: 47f380ba9889275da67fd27e611068dd
-SHA1: e3b014bded3e286e35d10e28db19181f6cc986dc
-SHA256: 2b6cec48fb00e4b71f920f7de3d7e49a318cd0c1d3982fd72d0e070737dd0572
+Filename: ./pipewire-system-services_1.6.7-1~aac1_all.deb
+Size: 12008
+MD5sum: 9add92bde3b58ca9fb8789bb644f82ae
+SHA1: c2acd736f4de3cd7f6405bc614794a1f980f82ae
+SHA256: 3e39e414c3da1198438e71741be2f686c2958648b2bc5ca745ed6cea52fd6834
 Section: libs
 Priority: optional
 Homepage: https://pipewire.org/
@@ -807,16 +807,16 @@ Description: audio and video processing engine multimedia server (system service
 
 Package: pipewire-tests
 Source: pipewire
-Version: 1.6.6-1~aac1
+Version: 1.6.7-1~aac1
 Architecture: amd64
 Maintainer: Utopia Maintenance Team <pkg-utopia-maintainers@alioth-lists.debian.net>
 Installed-Size: 4792
-Depends: pipewire (= 1.6.6-1~aac1), libasound2t64 (>= 1.2.6), libc6 (>= 2.38), libglib2.0-0t64 (>= 2.36.0), libjack-jackd2-0 (>= 1.9.10+20150825) | libjack-0.125, libpipewire-0.3-0t64 (= 1.6.6-1~aac1), libsdl2-2.0-0 (>= 2.0.12), libsndfile1 (>= 1.0.20)
-Filename: ./pipewire-tests_1.6.6-1~aac1_amd64.deb
-Size: 673968
-MD5sum: c911360dd1361048bc1c4e4f10bda123
-SHA1: 1ddfc114f2c2a2caec9f8fded17b0aab6ed8c442
-SHA256: f113abebd0906d139e47053cbb1c158d50bc0fb38761d578e62db4f312a07b71
+Depends: pipewire (= 1.6.7-1~aac1), libasound2t64 (>= 1.2.6), libc6 (>= 2.38), libglib2.0-0t64 (>= 2.36.0), libjack-jackd2-0 (>= 1.9.10+20150825) | libjack-0.125, libpipewire-0.3-0t64 (= 1.6.7-1~aac1), libsdl2-2.0-0 (>= 2.0.12), libsndfile1 (>= 1.0.20)
+Filename: ./pipewire-tests_1.6.7-1~aac1_amd64.deb
+Size: 672888
+MD5sum: c4aa176f77ff3a11d6b474c7d6e2e041
+SHA1: 0a8a88898ed35d9f127785decc306698fa3afc1d
+SHA256: 63ced55978c45d6ecc0d9165e92f1932ec7afa906118fc8bc99713b2871041de
 Section: misc
 Priority: optional
 Homepage: https://pipewire.org/
@@ -833,36 +833,36 @@ Description: PipeWire multimedia server - tests and examples
 
 Package: pipewire-tests-dbgsym
 Source: pipewire
-Version: 1.6.6-1~aac1
+Version: 1.6.7-1~aac1
 Auto-Built-Package: debug-symbols
 Architecture: amd64
 Maintainer: Utopia Maintenance Team <pkg-utopia-maintainers@alioth-lists.debian.net>
-Installed-Size: 6118
-Depends: pipewire-tests (= 1.6.6-1~aac1)
-Filename: ./pipewire-tests-dbgsym_1.6.6-1~aac1_amd64.deb
-Size: 3805772
-MD5sum: 5ecc801ebe15e6f1b3ffad000754522e
-SHA1: 73b905e8664ce2f4b66dacced280af81fd6b9d2d
-SHA256: 7e367f2a0f1eb112ce24b96893bfbe38c9e7085b31a92a2e2f5baf54f20eb47c
+Installed-Size: 6111
+Depends: pipewire-tests (= 1.6.7-1~aac1)
+Filename: ./pipewire-tests-dbgsym_1.6.7-1~aac1_amd64.deb
+Size: 3790800
+MD5sum: 1e7e7f96bed5d9ceffaa3bf4562f1914
+SHA1: 9a6642153e0b4b3ab427106e65ff25d89dfa19ae
+SHA256: 9094da51e798fb647e86307c35e7ec037805e20f9d0e366b7d90d45311cd9fcf
 Section: debug
 Priority: optional
 Description: debug symbols for pipewire-tests
-Build-Ids: 083fbbe7de1f452332d40f16166f28805f2f1731 1110ba47ef920b146ec6237bc516b3ccb4e14788 113726060287bda9268ab9c58097000fb41447de 11abef75bd77d64742f893825c035890816d7069 15377c874bfad90d40d2182855c2c751f406cf44 18dc64f891648bdfa13d8732b013859b76049cde 1a5e7927c182ef558d6d4ff7fcddc5891ffcacbb 1c0785af776f151324f5988e03f1bc7282e901a0 1f8a8248970b3de55e6686f422b92027f01da150 1faf11000862f92b4530d69496f18a01d471673f 2109194ac9da623166e5923fd753e166d6dcc7b7 2715c9cb8aef8fbdedd1b17dc60a5abeb8f0c813 2cdd52ca61e214b218263e255d0559096b36b5fa 2e5680035ce4760a14853ac46567400f93ab6286 332f15251415886e9c90037e9942a39a5fd7af18 35a245be2960780f8bebbfb106f323492223f00d 3b99430cdb162c29cc8cf41c97db7518b973c246 3fc37dea3510af68008b8d8245d2ef7a9b500404 47aad8cc274556dbd3b979ba65d449b781adcf24 4d8f96fddbb539481564bd48a24e8638f471451f 4e994a5d563d79e7418b6603db78b6cf46ef23b3 5042113e18644d5d54f8f6189cbf1a6bc307fd08 53a1e80a65bd9351f8df9eed9b883d9acc6fcece 61a0cf60251bd9142facfc7149d3088f9306878a 673eca561ff90d2bb62004dc66c836d66e789c25 6ee75d2aa6e2972d355e6802693ffe8830b8c94a 6fa7ba6d478439aab585cc808c39121a7e07a154 7541363458976e53ab48248e3e1897b86143e6d7 7eb689c7529502c77b22d39566e42662e4e993cd 8645b4e43a2bdcb0cceae5009d5404de0715ce50 8f3c817cb059277e5a027932e2873b6bdca80b81 8f7b463739d0e946f3732ceae617efdd0ae4923a 9713444815823bbf5de21a548317076eedd2968c 9856b85da531f29893b9aa22a552184d1d973dea 9921b34494214ebe2ed8331b8e1342cf93e68a45 9fe92cd94f501d2ce72718a55dbf9c42099c786c a1ee79c35d3a09e00aacf3d0914822b3cd70ee7b a3c6fd6d50b1f68a1bb870fc40eaf8b7dc26928d a7026cfa9de1c4fe9982ef5e690e24e5ec1d25fa a777d6cc71bf7b6823eb33e0890546dce3787107 a7baa5e2e8b08c811be3bc368b7d35a05a2b0e2b ad5e09102b02588f410c48c9640ca6793d146d7e ad6d4a2a2ea2ab92b24f5351341650195d4287c7 ade3bb7ebfb60b4afb673899b8209f05399852ea ba80b75880d8cd6b50642b46e776e3625f83c3cb bb0c2186ba37ec6a7bfd4b59504a44d0a4a3b094 c1ec79349ecda3b8ee13627c0f930c09a663c293 c5605b707c5b0567b75d38133b6a8bead2e3c099 d1983453801a179af1dc37c5440adcc404f369c0 dd9426dc2660717308466d45bd088a15c6f6f374 dfd9cead8e89179dce60d6aad10bd59a60a960ab e53cce8c7a9dc25b2fbd65edc68fe18c2c8fbd83 e58c8fa6c677123e6443ddfa621d758d4dc7e254 ea4d46969b18544c843668d01b99c71854319d56 eb100c47daee6e013828471bd531b8b82463b334 ec056311314db446dacdb848063353647767c97c ed894e329824444d4e9660c3081bac46eea6e157 f2641f0cf110205fba2c45c2e9c1418228622690 f94842b43b3d489a58e685a8523bf2abb1d1fc03 ffca6cd6f626b2e8e745e912443c7a48c8cf7272 ffd4ac635834298c52079cadb98f1bb371f68cef
+Build-Ids: 07ffe9a7d2ca3603d25798621cb4ab72cfdb7027 08772ce2dd7f86920ce374dedfe31cf451930758 0a9bdb57fb8c35305d9427aabfeb4d9202268c12 1c2af38664505cd6be4e4132bc67832c8aa1cf4d 2387085775673beb4424d825a45f60013475875f 2e9ccd292df0e4054b712b31aa3e717cd224dae0 303f96efc902d79243a758a103ecc485438058ea 3193465fe4a7abe695181dab366ff46acaeef393 32049b3f15220229d71cd0448a805fbfc81d05e3 336c7e244ec5a075f95b4eaade7f2771b5ece23d 34b8fe854eecc1c4b41f99b7c46f12c9f6fef21a 41bbdc2a98871a531b9ab933054ee210c6dc291d 4248c75cc34d45cb782d42fe8707bd577a73df60 4a314c092e3d236d7d74da98d2d8d28153be4928 4cda1e701eaef9e3861f8a5da09ef646885634d0 4f6c583046046cce3fe9942652a8c4a09523bfe7 4fa19fc9009c281422dcf4505bad0843579fcbc2 50ab0f62edbe2b30cc018dd4be72a805852aeacb 565b2b6e92dfc9a3d3ebe1eca8170f6646f4473c 5aad4856f4f02df72bdf06d1d441048603be9314 5bac8f725d967bee0d3677d30155beb92860ac5b 5c64fe4fcf6841ed68118f26ac8cd5cca80bb9b8 627147d664267034e6f001ad681d900464cf6d5f 636b5fd3b01c11b4ec615e945faa7b981b108a00 677c537eee3b020823ff609adc51a7b7b12c119f 6825d78c7be8240041d662b1a1b94aa752f96674 69255979f1bb5dd5fefb87f0a15813a874dbe908 766c420cf7c826cd5770c230dfe38be239dfce7c 791100fdc0af1d35f46e872375b1362d173e8782 79a627810981211c8d83f443ab3a545a90ce9a73 7f461b2d07f00f734b81a4ffd506d90c56b4f806 82106005f855bdd55de0f2a730d6f281420b32bd 8b448accbc37c4efab423e4143ac078281da96de 8c692696abeba5fcbaeec552717a6f905484d363 8e471044956173c18408a03cced782529217bbd5 9cfb9ec111dd23a963a98d800fad1f01314a5163 9dca380a0dab8098773936860be9aba7d3194ca2 9f645c94f89a13b3b85d56cdb1b937c3fd6a884e a172954bb7b36e54c33fa97a63781f61a999e96e a5a462dac8944c8e6a6923e7104fc0613ff0aa87 aef5a903b15199a1ce87079991684c365b71e235 af05af56034b0e795906050111280b47d6ce2bc4 b082428f58619d5abc5b705f2831bba606cfbaa4 b15f233de0b72f5ed73f1f71ce01df2be46fb80b b63d1f061e657ab213992518cb28867d80d7c571 b9401e5070ae63e1dab7ca5d25eeb2f7ec7c370c be037538bf96eba1242babf6961e1695fb73c160 c146ef6a33170b22a75730370c00e95ff6c13469 c43bc9782d4de031dd82c86b3a2ae4ce390f3d5f cae91693fb4332a02b02d17d372bb01283481fef cdceeba124b06c3625e6783d860ac0fe03678073 d2b67fce98af252174cb9c4ecdf4fc3a5fd08a73 d642ca5cd0b52b5e9d00e79bc1270135ad292a50 dcb8fe290b41e53513aebeffbddb1361c07d29b3 e4ae41aa5513f1ac7ab657968c98d77f184ff758 eb09794d65e59a77468aa3ca8411cdef76b4d211 ecd9fb8d379b06be408e269878d33b46ec915429 ef8a2b93dbe3e9136d94173e725ccf4605d1e528 eff75d7a404fba03096212984f7a483183e093bf ff5351e8eec78ddc098a46fa044dc4a282d9f20f ffc36521e63d1687db6212df601b4569f037b72a
 
 Package: pipewire-v4l2
 Source: pipewire
-Version: 1.6.6-1~aac1
+Version: 1.6.7-1~aac1
 Architecture: amd64
 Maintainer: Utopia Maintenance Team <pkg-utopia-maintainers@alioth-lists.debian.net>
 Installed-Size: 122
-Depends: pipewire (= 1.6.6-1~aac1), libc6 (>= 2.38), libpipewire-0.3-0t64 (= 1.6.6-1~aac1)
+Depends: pipewire (= 1.6.7-1~aac1), libc6 (>= 2.38), libpipewire-0.3-0t64 (= 1.6.7-1~aac1)
 Breaks: libpipewire-0.3-modules (<< 0.3.54-1), pipewire-bin (<< 0.3.54-1)
 Replaces: libpipewire-0.3-modules (<< 0.3.54-1), pipewire-bin (<< 0.3.54-1)
-Filename: ./pipewire-v4l2_1.6.6-1~aac1_amd64.deb
-Size: 47128
-MD5sum: 82051096fc2aca5465cf86f564a48ce7
-SHA1: 76839b69e33ecbd6f9af3a615e2843d5d7999025
-SHA256: eac73a1b117cd2856c59d557ff40ecd22a9dc9fab64349bd12bde4e8d067c1b1
+Filename: ./pipewire-v4l2_1.6.7-1~aac1_amd64.deb
+Size: 47132
+MD5sum: a69dcc1b1e33d4cbc988cc750fe2a847
+SHA1: ca7dc8fe9789a9df1d72438a7e00b0878a7fb44d
+SHA256: c1375de66def56500bfe04740d9b1cb7ed871862105b738685e42dd49988d347
 Section: video
 Priority: optional
 Multi-Arch: same
@@ -880,20 +880,20 @@ Description: PipeWire V4L2 plugin
 
 Package: pipewire-v4l2-dbgsym
 Source: pipewire
-Version: 1.6.6-1~aac1
+Version: 1.6.7-1~aac1
 Auto-Built-Package: debug-symbols
 Architecture: amd64
 Maintainer: Utopia Maintenance Team <pkg-utopia-maintainers@alioth-lists.debian.net>
 Installed-Size: 167
-Depends: pipewire-v4l2 (= 1.6.6-1~aac1)
-Filename: ./pipewire-v4l2-dbgsym_1.6.6-1~aac1_amd64.deb
-Size: 153300
-MD5sum: c692165d47bff874dfc3cc32475b0e0f
-SHA1: fc5f5eeab594af3fb95017896742186ca2759998
-SHA256: 11eb79684ff28ac60c367bcbdc0bd8b9f01b6c0a691752db706fde04913a17a7
+Depends: pipewire-v4l2 (= 1.6.7-1~aac1)
+Filename: ./pipewire-v4l2-dbgsym_1.6.7-1~aac1_amd64.deb
+Size: 153236
+MD5sum: cd835e4ff801bb97e911b5988e377912
+SHA1: a1fc52b8a2aa9fb77bb8fb8987d1318581f587b2
+SHA256: c160bdb40c8333f244df8b4fa8ae0e372e60d4b5c68ad0a6c7a8f3f67e08f851
 Section: debug
 Priority: optional
 Multi-Arch: same
 Description: debug symbols for pipewire-v4l2
-Build-Ids: 7c5cef2250745ecd3183b9ce27654d5b886f68ae
+Build-Ids: 9f9366d63678340ac3540028af5ed9d85a4ffcaf
 
